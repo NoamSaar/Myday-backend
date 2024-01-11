@@ -10,6 +10,7 @@ export const boardService = {
     getById,
     add,
     update,
+    updateBoardsOrder,
     // addBoardMsg,
     // removeBoardMsg
 }
@@ -28,10 +29,11 @@ async function query() {
 }
 
 async function getById(boardId) {
+    // console.log('boardId service:', boardId)
     try {
         const collection = await dbService.getCollection('board')
         const board = collection.findOne({ _id: new ObjectId(boardId) })
-
+        console.log('board:', board)
         return board
     } catch (err) {
         logger.error(`while finding board ${boardId}`, err)
@@ -51,6 +53,9 @@ async function remove(boardId) {
 }
 
 async function add(board) {
+    const existingBoards = await query()
+    const order = existingBoards.length + 1
+
     try {
         const boardToSave = {
             title: board.title,
@@ -62,12 +67,13 @@ async function add(board) {
             members: board.members,
             groups: board.groups,
             activities: board.activities,
-            titlesOrder: board.titlesOrder
+            titlesOrder: board.titlesOrder,
+            order,
         }
 
         const collection = await dbService.getCollection('board')
         await collection.insertOne(boardToSave)
-        return board
+        return boardToSave
     } catch (err) {
         logger.error('cannot insert board', err)
         throw err
@@ -77,6 +83,7 @@ async function add(board) {
 async function update(board) {
     try {
         const boardToSave = {
+            // _id: new ObjectId(board._id),
             title: board.title,
             isStarred: board.isStarred,
             archivedAt: board.archivedAt,
@@ -86,14 +93,32 @@ async function update(board) {
             members: board.members,
             groups: board.groups,
             activities: board.activities,
-            titlesOrder: board.titlesOrder
+            titlesOrder: board.titlesOrder,
+            order: board.order
         }
 
         const collection = await dbService.getCollection('board')
         await collection.updateOne({ _id: new ObjectId(board._id) }, { $set: boardToSave })
-        return board
+        return { ...boardToSave, _id: board._id }
     } catch (err) {
         logger.error(`cannot update board ${board._id}`, err)
+        throw err
+    }
+}
+
+async function updateBoardsOrder(boards) {
+    // console.log('boards:', boards)
+    try {
+        const collection = await dbService.getCollection('board')
+        await Promise.all(boards.map(async (board, index) => {
+            await collection.updateOne(
+                { _id: new ObjectId(board._id) },
+                { $set: { order: index + 1 } }
+            )
+        }))
+        return boards
+    } catch (err) {
+        logger.error('cannot update boards order', err)
         throw err
     }
 }
