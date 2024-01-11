@@ -15,7 +15,9 @@ router.put('/', updateBoard)
 router.delete('/:id', removeBoard)
 
 //tasks
+// router.get('/:id/task/:taskId', getBoardTaskById)
 // router.post('/:id/task', addBoardTask)
+// router.put('/:id/task', updateBoardTask)
 // router.delete('/:id/task/:taskId', removeBoardTask)
 
 export const boardRoutes = router

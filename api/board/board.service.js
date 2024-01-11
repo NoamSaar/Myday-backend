@@ -51,31 +51,18 @@ async function remove(boardId) {
 }
 
 async function add(board) {
-    const {
-        title,
-        isStarred,
-        archivedAt,
-        createdBy,
-        status,
-        priority,
-        members,
-        groups,
-        activities,
-        titlesOrder
-    } = board
-
     try {
         const boardToSave = {
-            title,
-            isStarred,
-            archivedAt,
-            createdBy,
-            status,
-            priority,
-            members,
-            groups,
-            activities,
-            titlesOrder
+            title: board.title,
+            isStarred: board.isStarred,
+            archivedAt: board.archivedAt,
+            createdBy: board.createdBy,
+            status: board.status,
+            priority: board.priority,
+            members: board.members,
+            groups: board.groups,
+            activities: board.activities,
+            titlesOrder: board.titlesOrder
         }
 
         const collection = await dbService.getCollection('board')
@@ -88,31 +75,18 @@ async function add(board) {
 }
 
 async function update(board) {
-    const {
-        title,
-        isStarred,
-        archivedAt,
-        createdBy,
-        status,
-        priority,
-        members,
-        groups,
-        activities,
-        titlesOrder
-    } = board
-
     try {
         const boardToSave = {
-            title,
-            isStarred,
-            archivedAt,
-            createdBy,
-            status,
-            priority,
-            members,
-            groups,
-            activities,
-            titlesOrder
+            title: board.title,
+            isStarred: board.isStarred,
+            archivedAt: board.archivedAt,
+            createdBy: board.createdBy,
+            status: board.status,
+            priority: board.priority,
+            members: board.members,
+            groups: board.groups,
+            activities: board.activities,
+            titlesOrder: board.titlesOrder
         }
 
         const collection = await dbService.getCollection('board')
