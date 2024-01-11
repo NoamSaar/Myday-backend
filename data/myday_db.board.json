@@ -6,7 +6,9 @@
     "isStarred": false,
     "archivedAt": null,
     "createdBy": {
-        "_id": "u101",
+        "_id": {
+            "$oid": "659fd52d810c3f98c2054719"
+        },
         "fullname": "Eden Rize",
         "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360556/catt_dytsgq.jpg"
     },
@@ -64,16 +66,22 @@
     ],
     "members": [
         {
-            "_id": "u101",
+            "_id": {
+                "$oid": "659fd52d810c3f98c2054719"
+            },
             "fullname": "Eden Rize",
             "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360556/catt_dytsgq.jpg"
         },
         {
-            "_id": "u102",
+            "_id": {
+                "$oid": "659fd60b810c3f98c205471b"
+            },
             "fullname": "Mor Marzan"
         },
         {
-            "_id": "u103",
+            "_id": {
+                "$oid": "659fd5db810c3f98c205471a"
+            },
             "fullname": "Noam Saar",
             "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360614/noam_tdr2rp.jpg"
         }
@@ -88,7 +96,9 @@
                     "id": "c101",
                     "title": "Add chat",
                     "members": [
-                        "u103"
+                        {
+                            "$oid": "659fd5db810c3f98c205471a"
+                        }
                     ],
                     "status": "l103",
                     "priority": "l204",
@@ -100,10 +110,12 @@
                         "url": "https://socket.io/get-started/chat",
                         "displayTxt": "Sockets docs"
                     },
-                    "msgs": [
+                    "updates": [
                         {
                             "id": "u123",
-                            "memberId": "u101",
+                            "memberId": {
+                                "$oid": "659fd52d810c3f98c2054719"
+                            },
                             "createdAt": {
                                 "$numberLong": "1704302734753"
                             },
@@ -116,8 +128,12 @@
                     "id": "c102",
                     "title": "Add paging",
                     "members": [
-                        "u102",
-                        "u103"
+                        {
+                            "$oid": "659fd5db810c3f98c205471a"
+                        },
+                        {
+                            "$oid": "659fd60b810c3f98c205471b"
+                        }
                     ],
                     "status": "l104",
                     "priority": "l203",
@@ -129,26 +145,30 @@
                         "url": "https://www.turing.com/kb/implementing-javascript-pagination",
                         "displayTxt": "How to page"
                     },
-                    "msgs": []
+                    "updates": []
                 },
                 {
                     "id": "c103",
                     "title": "Add about puki page",
                     "members": [
-                        "u101"
+                        {
+                            "$oid": "659fd52d810c3f98c2054719"
+                        }
                     ],
                     "status": "l102",
                     "priority": "l202",
-                    "msgs": [
+                    "updates": [
                         {
                             "id": "u555",
-                            "memberId": "u101",
+                            "memberId": {
+                                "$oid": "659fd52d810c3f98c2054719"
+                            },
                             "createdAt": {
                                 "$numberLong": "1704303445060"
                             },
                             "txt": "Research about puki",
                             "likes": [
-                                "u102"
+                                "659fd60b810c3f98c205471b"
                             ]
                         }
                     ]
@@ -165,8 +185,12 @@
                     "id": "c201",
                     "title": "Reactor css files to scss",
                     "members": [
-                        "u101",
-                        "u103"
+                        {
+                            "$oid": "659fd52d810c3f98c2054719"
+                        },
+                        {
+                            "$oid": "659fd5db810c3f98c205471a"
+                        }
                     ],
                     "status": "l102",
                     "priority": "l202",
@@ -176,16 +200,20 @@
                     "link": {
                         "url": "https://bryanlrobinson.com/blog/refactoring-css-into-sass-mixin/"
                     },
-                    "msgs": [
+                    "updates": [
                         {
                             "id": "u127",
-                            "memberId": "u103",
+                            "memberId": {
+                                "$oid": "659fdb5c43565a19c57dd632"
+                            },
                             "createdAt": {
                                 "$numberLong": "1704303744452"
                             },
                             "txt": "Added the imports, missing the vars",
                             "likes": [
-                                "u101"
+                                {
+                                    "$oid": "659fd52d810c3f98c2054719"
+                                }
                             ]
                         }
                     ]
@@ -196,15 +224,21 @@
                     "members": [],
                     "status": "l104",
                     "priority": "l203",
-                    "msgs": []
+                    "updates": []
                 },
                 {
                     "id": "c203",
                     "title": "Refactor to use Store Redux",
                     "members": [
-                        "u101",
-                        "u102",
-                        "u103"
+                        {
+                            "$oid": "659fd52d810c3f98c2054719"
+                        },
+                        {
+                            "$oid": "659fd5db810c3f98c205471a"
+                        },
+                        {
+                            "$oid": "659fd60b810c3f98c205471b"
+                        }
                     ],
                     "status": "l103",
                     "priority": "l201",
@@ -214,10 +248,12 @@
                     "link": {
                         "url": "https://redux.js.org/"
                     },
-                    "msgs": [
+                    "updates": [
                         {
                             "id": "u777",
-                            "memberId": "u103",
+                            "memberId": {
+                                "$oid": "659fd5db810c3f98c205471a"
+                            },
                             "createdAt": {
                                 "$numberLong": "1704304108853"
                             },
@@ -230,7 +266,9 @@
                     "id": "c204",
                     "title": "Refactor vars/lets to const",
                     "members": [
-                        "u102"
+                        {
+                            "$oid": "659fd60b810c3f98c205471b"
+                        }
                     ],
                     "status": "l101",
                     "priority": "l200",
@@ -238,20 +276,22 @@
                         "$numberLong": "1703720101090"
                     },
                     "file": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704304383/large-Screenshot_2024-01-03_at_11.35.48_qclnrt.png",
-                    "msgs": []
+                    "updates": []
                 },
                 {
                     "id": "c205",
                     "title": "Refactor service to use http",
                     "members": [
-                        "u103"
+                        {
+                            "$oid": "659fd5db810c3f98c205471a"
+                        }
                     ],
                     "status": "l100",
                     "priority": "l204",
                     "date": {
                         "$numberLong": "1703728412860"
                     },
-                    "msgs": []
+                    "updates": []
                 }
             ],
             "color": "#bb3354"
@@ -265,7 +305,9 @@
                     "id": "c301",
                     "title": "Unresponsive Button on Click",
                     "members": [
-                        "u102"
+                        {
+                            "$oid": "659fd5db810c3f98c205471a"
+                        }
                     ],
                     "status": "l101",
                     "priority": "l201",
@@ -277,21 +319,27 @@
                         "url": "https://stackoverflow.com/questions/22776702/unresponsive-button-after-calling-javascript",
                         "displayTxt": "Unresponsive button after calling javascript"
                     },
-                    "msgs": [
+                    "updates": [
                         {
                             "id": "u157",
-                            "memberId": "u102",
+                            "memberId": {
+                                "$oid": "659fd60b810c3f98c205471b"
+                            },
                             "createdAt": {
                                 "$numberLong": "1704305297046"
                             },
                             "txt": "Desperate here, needs help! @Eden Rize",
                             "likes": [
-                                "u101"
+                                {
+                                    "$oid": "659fd52d810c3f98c2054719"
+                                }
                             ],
                             "comments": [
                                 {
                                     "id": "u457",
-                                    "memberId": "u101",
+                                    "memberId": {
+                                        "$oid": "659fd52d810c3f98c2054719"
+                                    },
                                     "createdAt": {
                                         "$numberLong": "1704305400521"
                                     },
@@ -305,8 +353,12 @@
                     "id": "c302",
                     "title": "Misaligned Layout on Mobile Devices",
                     "members": [
-                        "u101",
-                        "u102"
+                        {
+                            "$oid": "659fd52d810c3f98c2054719"
+                        },
+                        {
+                            "$oid": "659fd5db810c3f98c205471a"
+                        }
                     ],
                     "status": "l102",
                     "priority": "l204",
@@ -318,43 +370,49 @@
                         "url": "https://stackoverflow.com/questions/29740966/layout-distorted-when-viewed-on-mobile",
                         "displayTxt": "Layout distorted when viewed on mobile"
                     },
-                    "msgs": []
+                    "updates": []
                 },
                 {
                     "id": "c303",
                     "title": "Broken Image Links",
                     "members": [
-                        "u103"
+                        {
+                            "$oid": "659fd5db810c3f98c205471a"
+                        }
                     ],
                     "status": "l102",
                     "priority": "l204",
-                    "msgs": []
+                    "updates": []
                 },
                 {
                     "id": "c304",
                     "title": "Inconsistent Styling Across Browsers",
                     "members": [
-                        "u102"
+                        {
+                            "$oid": "659fd5db810c3f98c205471a"
+                        }
                     ],
                     "status": "l101",
                     "priority": "l202",
                     "date": {
                         "$numberLong": "1703995874889"
                     },
-                    "msgs": []
+                    "updates": []
                 },
                 {
                     "id": "c305",
                     "title": "Slow Page Load Times",
                     "members": [
-                        "u101"
+                        {
+                            "$oid": "659fd52d810c3f98c2054719"
+                        }
                     ],
                     "status": "l104",
                     "priority": "l201",
                     "date": {
                         "$numberLong": "1704299392298"
                     },
-                    "msgs": []
+                    "updates": []
                 }
             ],
             "color": "#8050ab"
@@ -368,7 +426,9 @@
                 "$numberLong": "1704306285659"
             },
             "byMember": {
-                "_id": "u101",
+                "_id": {
+                    "$oid": "659fd52d810c3f98c2054719"
+                },
                 "fullname": "Eden Rize",
                 "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360556/catt_dytsgq.jpg"
             },
@@ -388,7 +448,9 @@
                 "$numberLong": "1704308766516"
             },
             "byMember": {
-                "_id": "u101",
+                "_id": {
+                    "$oid": "659fd52d810c3f98c2054719"
+                },
                 "fullname": "Eden Rize",
                 "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360556/catt_dytsgq.jpg"
             },
@@ -408,7 +470,9 @@
                 "$numberLong": "1704308766516"
             },
             "byMember": {
-                "_id": "u102",
+                "_id": {
+                    "$oid": "659fd60b810c3f98c205471b"
+                },
                 "fullname": "Mor Marzan"
             },
             "group": {
@@ -427,7 +491,9 @@
                 "$numberLong": "1704308766516"
             },
             "byMember": {
-                "_id": "u103",
+                "_id": {
+                    "$oid": "659fd5db810c3f98c205471a"
+                },
                 "fullname": "Noam Saar",
                 "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360614/noam_tdr2rp.jpg"
             },
@@ -447,7 +513,9 @@
                 "$numberLong": "1704308766516"
             },
             "byMember": {
-                "_id": "u103",
+                "_id": {
+                    "$oid": "659fd5db810c3f98c205471a"
+                },
                 "fullname": "Noam Saar",
                 "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360614/noam_tdr2rp.jpg"
             },
@@ -467,7 +535,9 @@
                 "$numberLong": "1704308766516"
             },
             "byMember": {
-                "_id": "u103",
+                "_id": {
+                    "$oid": "659fd5db810c3f98c205471a"
+                },
                 "fullname": "Noam Saar",
                 "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360614/noam_tdr2rp.jpg"
             },
@@ -487,7 +557,9 @@
                 "$numberLong": "1704308766516"
             },
             "byMember": {
-                "_id": "u102",
+                "_id": {
+                    "$oid": "659fd60b810c3f98c205471b"
+                },
                 "fullname": "Mor Marzan"
             },
             "group": {
@@ -506,7 +578,9 @@
                 "$numberLong": "1704308766516"
             },
             "byMember": {
-                "_id": "u101",
+                "_id": {
+                    "$oid": "659fd52d810c3f98c2054719"
+                },
                 "fullname": "Eden Rize",
                 "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360556/catt_dytsgq.jpg"
             },
@@ -526,7 +600,9 @@
                 "$numberLong": "1704308766516"
             },
             "byMember": {
-                "_id": "u102",
+                "_id": {
+                    "$oid": "659fd60b810c3f98c205471b"
+                },
                 "fullname": "Mor Marzan"
             },
             "group": {
@@ -545,7 +621,9 @@
                 "$numberLong": "1704308766516"
             },
             "byMember": {
-                "_id": "u102",
+                "_id": {
+                    "$oid": "659fd60b810c3f98c205471b"
+                },
                 "fullname": "Mor Marzan"
             },
             "group": {
@@ -564,7 +642,9 @@
                 "$numberLong": "1704308766516"
             },
             "byMember": {
-                "_id": "u103",
+                "_id": {
+                    "$oid": "659fd5db810c3f98c205471a"
+                },
                 "fullname": "Noam Saar",
                 "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360614/noam_tdr2rp.jpg"
             },
@@ -584,7 +664,9 @@
                 "$numberLong": "1704308766516"
             },
             "byMember": {
-                "_id": "u101",
+                "_id": {
+                    "$oid": "659fd52d810c3f98c2054719"
+                },
                 "fullname": "Eden Rize",
                 "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360556/catt_dytsgq.jpg"
             },
@@ -604,7 +686,9 @@
                 "$numberLong": "1704308766516"
             },
             "byMember": {
-                "_id": "u103",
+                "_id": {
+                    "$oid": "659fd5db810c3f98c205471a"
+                },
                 "fullname": "Noam Saar",
                 "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360614/noam_tdr2rp.jpg"
             },
@@ -624,7 +708,9 @@
                 "$numberLong": "1704308766516"
             },
             "byMember": {
-                "_id": "u102",
+                "_id": {
+                    "$oid": "659fd60b810c3f98c205471b"
+                },
                 "fullname": "Mor Marzan"
             },
             "group": {
@@ -643,7 +729,9 @@
                 "$numberLong": "1704308766516"
             },
             "byMember": {
-                "_id": "u101",
+                "_id": {
+                    "$oid": "659fd52d810c3f98c2054719"
+                },
                 "fullname": "Eden Rize",
                 "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360556/catt_dytsgq.jpg"
             },
@@ -663,7 +751,9 @@
                 "$numberLong": "1704308766516"
             },
             "byMember": {
-                "_id": "u103",
+                "_id": {
+                    "$oid": "659fd5db810c3f98c205471a"
+                },
                 "fullname": "Noam Saar",
                 "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360614/noam_tdr2rp.jpg"
             },
@@ -683,7 +773,9 @@
                 "$numberLong": "1704308766516"
             },
             "byMember": {
-                "_id": "u103",
+                "_id": {
+                    "$oid": "659fd5db810c3f98c205471a"
+                },
                 "fullname": "Noam Saar",
                 "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360614/noam_tdr2rp.jpg"
             },
@@ -703,7 +795,9 @@
                 "$numberLong": "1704308766516"
             },
             "byMember": {
-                "_id": "u101",
+                "_id": {
+                    "$oid": "659fd52d810c3f98c2054719"
+                },
                 "fullname": "Eden Rize",
                 "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360556/catt_dytsgq.jpg"
             },
@@ -723,7 +817,9 @@
                 "$numberLong": "1704308766516"
             },
             "byMember": {
-                "_id": "u101",
+                "_id": {
+                    "$oid": "659fd52d810c3f98c2054719"
+                },
                 "fullname": "Eden Rize",
                 "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360556/catt_dytsgq.jpg"
             },
@@ -743,7 +839,9 @@
                 "$numberLong": "1704308766516"
             },
             "byMember": {
-                "_id": "u101",
+                "_id": {
+                    "$oid": "659fd52d810c3f98c2054719"
+                },
                 "fullname": "Eden Rize",
                 "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360556/catt_dytsgq.jpg"
             },
@@ -763,7 +861,9 @@
                 "$numberLong": "1704308766516"
             },
             "byMember": {
-                "_id": "u102",
+                "_id": {
+                    "$oid": "659fd60b810c3f98c205471b"
+                },
                 "fullname": "Mor Marzan"
             },
             "group": {

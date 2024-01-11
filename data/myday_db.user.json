@@ -1,0 +1,27 @@
+[{
+  "_id": {
+    "$oid": "659fd52d810c3f98c2054719"
+  },
+  "fullname": "Eden Rize",
+  "username": "Eden",
+  "password": "$2b$10$DHmpAedZ94JhFhyIJF0uO.yTwWR5DK4Aoup2RkrOiqV9WtVByg8Xq",
+  "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360556/catt_dytsgq.jpg"
+},
+{
+  "_id": {
+    "$oid": "659fd5db810c3f98c205471a"
+  },
+  "fullname": "Noam Saar",
+  "username": "Noam",
+  "password": "$2b$10$VFgXzxpvHunvg2AubkCJqOL.4UofcvLRQRSvoVmpj60vuhb5y9VSO",
+  "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360614/noam_tdr2rp.jpg"
+},
+{
+  "_id": {
+    "$oid": "659fd60b810c3f98c205471b"
+  },
+  "fullname": "Mor Marzan",
+  "username": "Mor",
+  "password": "$2b$10$JVgMLchFqxlzzIlcC/zkhujEdEIw6ICnVyS4XRrfThlxKlUWhZryG",
+  "imgUrl": ""
+}]
