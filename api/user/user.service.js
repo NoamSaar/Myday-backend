@@ -32,7 +32,6 @@ async function query(filterBy = {}) {
     }
 }
 
-
 async function getById(userId) {
     try {
         const collection = await dbService.getCollection('user')
@@ -78,7 +77,6 @@ async function update(user) {
         const userToSave = {
             _id: new ObjectId(user._id), // needed for the returnd obj
             fullname: user.fullname,
-            score: user.score,
         }
         const collection = await dbService.getCollection('user')
         await collection.updateOne({ _id: userToSave._id }, { $set: userToSave })
@@ -93,12 +91,12 @@ async function add(user) {
     try {
         // peek only updatable fields!
         const userToAdd = {
+            fullname: user.fullname,
             username: user.username,
             password: user.password,
-            fullname: user.fullname,
             imgUrl: user.imgUrl,
-            score: 100
         }
+
         const collection = await dbService.getCollection('user')
         await collection.insertOne(userToAdd)
         return userToAdd
@@ -108,24 +106,24 @@ async function add(user) {
     }
 }
 
-function _buildCriteria(filterBy) {
-    const criteria = {}
-    if (filterBy.txt) {
-        const txtCriteria = { $regex: filterBy.txt, $options: 'i' }
-        criteria.$or = [
-            {
-                username: txtCriteria
-            },
-            {
-                fullname: txtCriteria
-            }
-        ]
-    }
-    if (filterBy.minBalance) {
-        criteria.score = { $gte: filterBy.minBalance }
-    }
-    return criteria
-}
+// function _buildCriteria(filterBy) {
+//     const criteria = {}
+//     if (filterBy.txt) {
+//         const txtCriteria = { $regex: filterBy.txt, $options: 'i' }
+//         criteria.$or = [
+//             {
+//                 username: txtCriteria
+//             },
+//             {
+//                 fullname: txtCriteria
+//             }
+//         ]
+//     }
+//     if (filterBy.minBalance) {
+//         criteria.score = { $gte: filterBy.minBalance }
+//     }
+//     return criteria
+// }
 
 
 

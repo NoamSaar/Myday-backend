@@ -1,6 +1,6 @@
-import {userService} from './user.service.js'
-import {logger} from '../../services/logger.service.js'
-import {socketService} from '../../services/socket.service.js'
+import { userService } from './user.service.js'
+import { logger } from '../../services/logger.service.js'
+import { socketService } from '../../services/socket.service.js'
 
 export async function getUser(req, res) {
     try {
@@ -14,11 +14,7 @@ export async function getUser(req, res) {
 
 export async function getUsers(req, res) {
     try {
-        const filterBy = {
-            txt: req.query?.txt || '',
-            minBalance: +req.query?.minBalance || 0
-        }
-        const users = await userService.query(filterBy)
+        const users = await userService.query()
         res.send(users)
     } catch (err) {
         logger.error('Failed to get users', err)

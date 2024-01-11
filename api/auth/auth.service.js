@@ -19,8 +19,8 @@ async function login(username, password) {
     const user = await userService.getByUsername(username)
     if (!user) throw 'Invalid username or password'
     // TODO: un-comment for real login
-    // const match = await bcrypt.compare(password, user.password)
-    // if (!match) return Promise.reject('Invalid username or password')
+    const match = await bcrypt.compare(password, user.password)
+    if (!match) return Promise.reject('Invalid username or password')
 
     delete user.password
     user._id = user._id.toString()
@@ -41,7 +41,7 @@ async function signup({ username, password, fullname, imgUrl }) {
 }
 
 function getLoginToken(user) {
-    const userInfo = { _id: user._id, fullname: user.fullname, isAdmin: user.isAdmin }
+    const userInfo = { _id: user._id, fullname: user.fullname, imgUrl: user.imgUrl }
     return cryptr.encrypt(JSON.stringify(userInfo))
 }
 
@@ -50,7 +50,6 @@ function validateToken(loginToken) {
         const json = cryptr.decrypt(loginToken)
         const loggedinUser = JSON.parse(json)
         return loggedinUser
-
     } catch (err) {
         console.log('Invalid login token')
     }
