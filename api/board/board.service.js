@@ -29,11 +29,9 @@ async function query() {
 }
 
 async function getById(boardId) {
-    // console.log('boardId service:', boardId)
     try {
         const collection = await dbService.getCollection('board')
         const board = collection.findOne({ _id: new ObjectId(boardId) })
-        console.log('board:', board)
         return board
     } catch (err) {
         logger.error(`while finding board ${boardId}`, err)
@@ -107,7 +105,6 @@ async function update(board) {
 }
 
 async function updateBoardsOrder(boards) {
-    // console.log('boards:', boards)
     try {
         const collection = await dbService.getCollection('board')
         await Promise.all(boards.map(async (board, index) => {
