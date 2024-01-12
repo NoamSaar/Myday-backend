@@ -33,7 +33,6 @@ async function query(filterBy = {}) {
 }
 
 async function getById(userId) {
-    console.log('getById ~ userId:', userId)
     try {
         const collection = await dbService.getCollection('user')
         const user = await collection.findOne({ _id: new ObjectId(userId) })

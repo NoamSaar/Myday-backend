@@ -8,24 +8,35 @@ const app = express()
 const server = http.createServer(app)
 
 // Express App Config
+const corsOptions = {
+    origin: [
+        'http://127.0.0.1:8080',
+        'http://localhost:8080',
+        'http://127.0.0.1:5173',
+        'http://localhost:5173',
+    ],
+    credentials: true
+}
+app.use(cors(corsOptions))
+app.use(express.static('public'))
 app.use(cookieParser())
 app.use(express.json())
 
 
-if (process.env.NODE_ENV === 'production') {
-    app.use(express.static(path.resolve('public')))
-} else {
-    const corsOptions = {
-        origin: [
-            'http://127.0.0.1:3030',
-            'http://localhost:3030',
-            'http://127.0.0.1:5173',
-            'http://localhost:5173'
-        ],
-        credentials: true
-    }
-    app.use(cors(corsOptions))
-}
+// if (process.env.NODE_ENV === 'production') {
+//     app.use(express.static(path.resolve('public')))
+// } else {
+//     const corsOptions = {
+//         origin: [
+//             'http://127.0.0.1:8080',
+//             'http://localhost:8080',
+//             'http://127.0.0.1:5173',
+//             'http://localhost:5173'
+//         ],
+//         credentials: true
+//     }
+//     app.use(cors(corsOptions))
+// }
 
 import { authRoutes } from './api/auth/auth.routes.js'
 import { userRoutes } from './api/user/user.routes.js'
