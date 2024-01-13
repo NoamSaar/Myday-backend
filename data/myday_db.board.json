@@ -80,139 +80,10 @@
     ],
     "groups": [
         {
-            "id": "g101",
-            "title": "Features",
-            "archivedAt": null,
-            "tasks": [
-                {
-                    "id": "c103",
-                    "title": "Add about puki page",
-                    "members": [
-                        "659fd52d810c3f98c2054719"
-                    ],
-                    "status": "l103",
-                    "priority": "l204",
-                    "date": {
-                        "$numberLong": "1703706909537"
-                    },
-                    "file": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704302004/Screenshot_2024-01-03_113623_igieu2.png",
-                    "link": {
-                        "url": "https://socket.io/get-started/chat",
-                        "displayTxt": "Sockets docs"
-                    },
-                    "msgs": [
-                        {
-                            "id": "u555",
-                            "memberId": "659fd52d810c3f98c2054719",
-                            "createdAt": 1704303445060,
-                            "txt": "Research about puki",
-                            "likes": [
-                                "659fd60b810c3f98c205471b"
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "c102",
-                    "title": "Add paging",
-                    "members": [
-                        "659fd5db810c3f98c205471a",
-                        "659fd60b810c3f98c205471b"
-                    ],
-                    "status": "l104",
-                    "priority": "l203",
-                    "date": 1704241608991,
-                    "file": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704303178/Screenshot_2024-01-03_113811_kqd5pv.png",
-                    "link": {
-                        "url": "https://www.turing.com/kb/implementing-javascript-pagination",
-                        "displayTxt": "How to page"
-                    },
-                    "msgs": []
-                },
-                {
-                    "id": "c101",
-                    "title": "Add chat",
-                    "members": [
-                        "659fd5db810c3f98c205471a"
-                    ],
-                    "status": "l103",
-                    "priority": "l204",
-                    "date": 1703706909537,
-                    "file": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704302004/Screenshot_2024-01-03_113623_igieu2.png",
-                    "link": {
-                        "url": "https://socket.io/get-started/chat",
-                        "displayTxt": "Sockets docs"
-                    },
-                    "msgs": [
-                        {
-                            "id": "u123",
-                            "memberId": "659fd52d810c3f98c2054719",
-                            "createdAt": 1704302734753,
-                            "txt": "Init socket service 👍",
-                            "likes": []
-                        },
-                        {
-                            "createdAt": "1705070398858",
-                            "id": "LVh6n7",
-                            "likes": [],
-                            "memberId": "659fd52d810c3f98c2054719",
-                            "txt": "newwwwwww"
-                        }
-                    ]
-                }
-            ],
-            "color": "#579bfc"
-        },
-        {
             "id": "g102",
             "title": "Refactor",
             "archivedAt": null,
             "tasks": [
-                {
-                    "id": "c201",
-                    "title": "Reactor css files to scss",
-                    "members": [
-                        {
-                            "$oid": "659fd52d810c3f98c2054719"
-                        },
-                        {
-                            "$oid": "659fd5db810c3f98c205471a"
-                        }
-                    ],
-                    "status": "l102",
-                    "priority": "l202",
-                    "date": {
-                        "$numberLong": "1704074068766"
-                    },
-                    "link": {
-                        "url": "https://bryanlrobinson.com/blog/refactoring-css-into-sass-mixin/"
-                    },
-                    "msgs": [
-                        {
-                            "id": "u127",
-                            "memberId": {
-                                "$oid": "659fdb5c43565a19c57dd632"
-                            },
-                            "createdAt": {
-                                "$numberLong": "1704303744452"
-                            },
-                            "txt": "Added the imports, missing the vars",
-                            "likes": [
-                                {
-                                    "$oid": "659fd52d810c3f98c2054719"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "c202",
-                    "title": "Refactor Filter.jsx into Components and change imports",
-                    "members": [],
-                    "status": "l104",
-                    "priority": "l203",
-                    "msgs": []
-                },
                 {
                     "id": "c203",
                     "title": "Refactor to use Store Redux",
@@ -274,6 +145,14 @@
                     "msgs": []
                 },
                 {
+                    "id": "c202",
+                    "title": "Refactor Filter.jsx into Components and change imports",
+                    "members": [],
+                    "status": "l104",
+                    "priority": "l203",
+                    "msgs": []
+                },
+                {
                     "id": "c204",
                     "title": "Refactor vars/lets to const",
                     "members": [
@@ -287,6 +166,82 @@
                 }
             ],
             "color": "#bb3354"
+        },
+        {
+            "id": "g101",
+            "title": "Features",
+            "archivedAt": null,
+            "tasks": [
+                {
+                    "id": "c103",
+                    "title": "Add about puki page",
+                    "members": [
+                        "659fd52d810c3f98c2054719"
+                    ],
+                    "status": "l102",
+                    "priority": "l202",
+                    "msgs": [
+                        {
+                            "id": "u555",
+                            "memberId": "659fd52d810c3f98c2054719",
+                            "createdAt": 1704303445060,
+                            "txt": "Research about puki",
+                            "likes": [
+                                "659fd60b810c3f98c205471b"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "c101",
+                    "title": "Add chat",
+                    "members": [
+                        "659fd5db810c3f98c205471a"
+                    ],
+                    "status": "l103",
+                    "priority": "l204",
+                    "date": 1703706909537,
+                    "file": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704302004/Screenshot_2024-01-03_113623_igieu2.png",
+                    "link": {
+                        "url": "https://socket.io/get-started/chat",
+                        "displayTxt": "Sockets docs"
+                    },
+                    "msgs": [
+                        {
+                            "id": "u123",
+                            "memberId": "659fd52d810c3f98c2054719",
+                            "createdAt": 1704302734753,
+                            "txt": "Init socket service 👍",
+                            "likes": []
+                        },
+                        {
+                            "createdAt": "1705070398858",
+                            "id": "LVh6n7",
+                            "likes": [],
+                            "memberId": "659fd52d810c3f98c2054719",
+                            "txt": "Finished connecting the sockets."
+                        }
+                    ]
+                },
+                {
+                    "id": "c102",
+                    "title": "Add paging",
+                    "members": [
+                        "659fd5db810c3f98c205471a",
+                        "659fd60b810c3f98c205471b"
+                    ],
+                    "status": "l104",
+                    "priority": "l203",
+                    "date": 1704241608991,
+                    "file": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704303178/Screenshot_2024-01-03_113811_kqd5pv.png",
+                    "link": {
+                        "url": "https://www.turing.com/kb/implementing-javascript-pagination",
+                        "displayTxt": "How to page"
+                    },
+                    "msgs": []
+                }
+            ],
+            "color": "#579bfc"
         },
         {
             "id": "g103",
@@ -362,9 +317,7 @@
                     ],
                     "status": "l101",
                     "priority": "l202",
-                    "date": {
-                        "$numberLong": "1703995874889"
-                    },
+                    "date": 1703995874889,
                     "msgs": []
                 },
                 {
@@ -375,9 +328,7 @@
                     ],
                     "status": "l104",
                     "priority": "l201",
-                    "date": {
-                        "$numberLong": "1704299392298"
-                    },
+                    "date": 1704299392298,
                     "msgs": []
                 }
             ],
@@ -388,8 +339,6 @@
         {
             "id": "a999",
             "type": "color",
-            "from": "#e2445c",
-            "to": "#00c875",
             "txt": "Changed Color",
             "createdAt": 1704306285659,
             "byMember": {
@@ -409,8 +358,6 @@
         {
             "id": "a1000",
             "type": "color",
-            "from": "#e2445c",
-            "to": "#00c875",
             "txt": "Change color",
             "createdAt": 1704308766516,
             "byMember": {
@@ -430,8 +377,6 @@
         {
             "id": "a1001",
             "type": "file",
-            "from": null,
-            "to": "Added Screenshot",
             "txt": "Add file",
             "createdAt": 1704308766516,
             "byMember": {
@@ -450,8 +395,6 @@
         {
             "id": "a1002",
             "type": "file",
-            "from": null,
-            "to": "Added Screenshot",
             "txt": "Add file",
             "createdAt": 1704308766516,
             "byMember": {
@@ -471,8 +414,6 @@
         {
             "id": "a1003",
             "type": "date",
-            "from": null,
-            "to": 1704241608991,
             "txt": "Change date",
             "createdAt": 1704308766516,
             "byMember": {
@@ -493,7 +434,6 @@
             "id": "a1004",
             "type": "create",
             "txt": "Create",
-            "to": "g101",
             "createdAt": 1704308766516,
             "byMember": {
                 "_id": "659fd5db810c3f98c205471a",
@@ -512,8 +452,6 @@
         {
             "id": "a1005",
             "type": "file",
-            "from": null,
-            "to": "Deleted Screenshot",
             "txt": "Add file",
             "createdAt": 1704308766516,
             "byMember": {
@@ -532,7 +470,6 @@
         {
             "id": "a1006",
             "type": "status",
-            "from": null,
             "txt": "Change status",
             "createdAt": 1704308766516,
             "byMember": {
@@ -552,8 +489,6 @@
         {
             "id": "a1007",
             "type": "color",
-            "from": "#e2445c",
-            "to": "#00c875",
             "txt": "Change color",
             "createdAt": 1704308766516,
             "byMember": {
@@ -572,8 +507,6 @@
         {
             "id": "a1008",
             "type": "color",
-            "from": "#e2445c",
-            "to": "#00c875",
             "txt": "Change color",
             "createdAt": 1704308766516,
             "byMember": {
@@ -592,8 +525,6 @@
         {
             "id": "a1009",
             "type": "date",
-            "from": null,
-            "to": 1704231608991,
             "txt": "Change date",
             "createdAt": 1704308766516,
             "byMember": {
@@ -613,8 +544,6 @@
         {
             "id": "a1010",
             "type": "file",
-            "from": null,
-            "to": "Added Screenshot",
             "txt": "Add file",
             "createdAt": 1704308766516,
             "byMember": {
@@ -634,7 +563,6 @@
         {
             "id": "a1011",
             "type": "create",
-            "to": "g101",
             "txt": "Create",
             "createdAt": 1704308766516,
             "byMember": {
@@ -672,8 +600,6 @@
         {
             "id": "a1013",
             "type": "date",
-            "from": null,
-            "to": 1704241608991,
             "txt": "Change date",
             "createdAt": 1704308766516,
             "byMember": {
@@ -731,8 +657,6 @@
         {
             "id": "a1016",
             "type": "date",
-            "from": null,
-            "to": 1704241108991,
             "txt": "Change date",
             "createdAt": 1704308766516,
             "byMember": {
@@ -771,8 +695,6 @@
         {
             "id": "a1018",
             "type": "color",
-            "from": "#e2445c",
-            "to": "#00c875",
             "txt": "Change color",
             "createdAt": 1704308766516,
             "byMember": {
@@ -816,5 +738,5 @@
         "link",
         "file"
     ],
-    "order": 1
+    "order": 4
 }
