@@ -4,8 +4,8 @@ import bcrypt from 'bcrypt'
 import { userService } from '../user/user.service.js'
 import { logger } from '../../services/logger.service.js'
 
-const cryptr = new Cryptr(process.env.CRYPTR_SECRET)
-// const cryptr = new Cryptr(process.env.CRYPTR_SECRET || 'Secret-myday-1801')
+// const cryptr = new Cryptr(process.env.CRYPTR_SECRET)
+const cryptr = new Cryptr(process.env.CRYPTR_SECRET || 'Secret-myday-1801')
 
 export const authService = {
     signup,
