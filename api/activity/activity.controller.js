@@ -35,6 +35,7 @@ export async function addActivity(req, res) {
     try {
         const activity = req.body
         activity.byMember = loggedinUser
+        activity.createdAt = Date.now()
         const addedActivity = await activityService.add(activity)
         res.json(addedActivity)
     } catch (err) {
