@@ -1,0 +1,184 @@
+[
+    {
+        "type": "create",
+        "entity": "group",
+        "txt": "Group created",
+        "createdAt": 1704308766516,
+        "byMember": {
+            "_id": "659fd5db810c3f98c205471a",
+            "fullname": "Noam Saar",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360614/noam_tdr2rp.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "g101",
+            "title": "Group Title"
+        }
+    },
+    {
+        "type": "title",
+        "entity": "group",
+        "txt": "Group Title",
+        "from": "Group Title",
+        "to": "Features",
+        "createdAt": 1704308766516,
+        "byMember": {
+            "_id": "659fd5db810c3f98c205471a",
+            "fullname": "Noam Saar",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360614/noam_tdr2rp.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "g101",
+            "title": "Group Title"
+        }
+    },
+    {
+        "type": "title",
+        "entity": "task",
+        "txt": "item 1",
+        "from": "item 1",
+        "to": "Add chat",
+        "createdAt": 1704308766516,
+        "byMember": {
+            "_id": "659fd5db810c3f98c205471a",
+            "fullname": "Noam Saar",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360614/noam_tdr2rp.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "g101",
+            "title": "Features"
+        },
+        "task": {
+            "id": "c101",
+            "title": "item 1"
+        }
+    },
+    {
+        "type": "date",
+        "entity": "task",
+        "txt": "Date",
+        "from": "6 Jan",
+        "to": "4 Jan",
+        "createdAt": 1704308766516,
+        "byMember": {
+            "_id": "659fd5db810c3f98c205471a",
+            "fullname": "Noam Saar",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360614/noam_tdr2rp.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "_id": "g101",
+            "title": "Features"
+        },
+        "task": {
+            "id": "c101",
+            "title": "Add chat"
+        }
+    },
+    {
+        "type": "person",
+        "entity": "task",
+        "txt": "Person",
+        "from": "Added",
+        "to": "659fd5db810c3f98c205471a",
+        "createdAt": 1704308766516,
+        "byMember": {
+            "_id": "659fd5db810c3f98c205471a",
+            "fullname": "Noam Saar",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360614/noam_tdr2rp.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "g101",
+            "title": "Features"
+        },
+        "task": {
+            "id": "c101",
+            "title": "Add chat"
+        }
+    },
+    {
+        "type": "priority",
+        "entity": "task",
+        "txt": "Priority",
+        "from": "-",
+        "to": "Medium",
+        "createdAt": 1704308766516,
+        "byMember": {
+            "_id": "659fd5db810c3f98c205471a",
+            "fullname": "Noam Saar",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360614/noam_tdr2rp.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "g101",
+            "title": "Features"
+        },
+        "task": {
+            "id": "c101",
+            "title": "Add chat"
+        }
+    },
+    {
+        "type": "status",
+        "entity": "task",
+        "txt": "Status",
+        "from": "-",
+        "to": "Working on it",
+        "createdAt": 1704308766516,
+        "byMember": {
+            "_id": "659fd5db810c3f98c205471a",
+            "fullname": "Noam Saar",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360614/noam_tdr2rp.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "g101",
+            "title": "Features"
+        },
+        "task": {
+            "id": "c101",
+            "title": "Add chat"
+        }
+    },
+    {
+        "type": "link",
+        "entity": "task",
+        "txt": "Link",
+        "from": "-",
+        "to": "Socket docs",
+        "createdAt": 1704308766516,
+        "byMember": {
+            "_id": "659fd5db810c3f98c205471a",
+            "fullname": "Noam Saar",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360614/noam_tdr2rp.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "g101",
+            "title": "Features"
+        },
+        "task": {
+            "id": "c101",
+            "title": "Add chat"
+        }
+    }
+]

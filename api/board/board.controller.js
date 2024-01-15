@@ -5,6 +5,7 @@ export async function getBoards(req, res) {
   try {
     logger.debug('Getting Boards:', req.query)
     const boards = await boardService.query()
+    console.log('boards:', boards)
     res.json(boards)
   } catch (err) {
     logger.error('Failed to get boards', err)

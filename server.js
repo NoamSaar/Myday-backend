@@ -41,6 +41,7 @@ app.use(express.json())
 import { authRoutes } from './api/auth/auth.routes.js'
 import { userRoutes } from './api/user/user.routes.js'
 import { boardRoutes } from './api/board/board.routes.js'
+import { activityRoutes } from './api/activity/activity.routes.js'
 import { boardsRoutes } from './api/board/boards.routes.js'
 import { setupSocketAPI } from './services/socket.service.js'
 
@@ -52,6 +53,7 @@ app.use('/api/auth', authRoutes)
 app.use('/api/user', userRoutes)
 app.use('/api/board', boardRoutes)
 app.use('/api/boards', boardsRoutes)
+app.use('/api/activity', activityRoutes)
 setupSocketAPI(server)
 
 // Make every server-side-route to match the index.html
