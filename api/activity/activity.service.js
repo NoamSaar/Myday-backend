@@ -41,7 +41,6 @@ async function getById(activityId) {
 }
 
 async function add(activity) {
-    console.log('add ~ activity:', activity)
     try {
         const activityToSave = {
             type: activity.type,
