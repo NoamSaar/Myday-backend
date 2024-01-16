@@ -10,7 +10,6 @@ export const activityService = {
 }
 
 async function query(filterBy = {}) {
-    console.log('hi')
     try {
         const criteria = {}
 
@@ -21,9 +20,7 @@ async function query(filterBy = {}) {
             criteria['task.id'] = filterBy.taskId
         }
 
-        console.log('criteria:', criteria)
         const collection = await dbService.getCollection('activity')
-        console.log('query ~ collection:', collection)
         const activities = await collection.find(criteria).toArray()
         return activities
     } catch (err) {
@@ -44,6 +41,7 @@ async function getById(activityId) {
 }
 
 async function add(activity) {
+    console.log('add ~ activity:', activity)
     try {
         const activityToSave = {
             type: activity.type,
@@ -57,7 +55,7 @@ async function add(activity) {
 
         if (activity.task) activityToSave.task = activity.task
         if (activity.from) activityToSave.from = activity.from
-        if (activity.to) activityToSave.from = activity.to
+        if (activity.to) activityToSave.to = activity.to
 
         const collection = await dbService.getCollection('activity')
         await collection.insertOne(activityToSave)
