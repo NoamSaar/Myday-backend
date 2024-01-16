@@ -1,27 +1,29 @@
-[{
-  "_id": {
-    "$oid": "659fd52d810c3f98c2054719"
+[
+  {
+    "_id": {
+      "$oid": "659fd52d810c3f98c2054719"
+    },
+    "fullname": "Eden Rize",
+    "username": "Eden",
+    "password": "$2b$10$DHmpAedZ94JhFhyIJF0uO.yTwWR5DK4Aoup2RkrOiqV9WtVByg8Xq",
+    "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360556/catt_dytsgq.jpg"
   },
-  "fullname": "Eden Rize",
-  "username": "Eden",
-  "password": "$2b$10$DHmpAedZ94JhFhyIJF0uO.yTwWR5DK4Aoup2RkrOiqV9WtVByg8Xq",
-  "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360556/catt_dytsgq.jpg"
-},
-{
-  "_id": {
-    "$oid": "659fd5db810c3f98c205471a"
+  {
+    "_id": {
+      "$oid": "659fd5db810c3f98c205471a"
+    },
+    "fullname": "Noam Saar",
+    "username": "Noam",
+    "password": "$2b$10$VFgXzxpvHunvg2AubkCJqOL.4UofcvLRQRSvoVmpj60vuhb5y9VSO",
+    "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360614/noam_tdr2rp.jpg"
   },
-  "fullname": "Noam Saar",
-  "username": "Noam",
-  "password": "$2b$10$VFgXzxpvHunvg2AubkCJqOL.4UofcvLRQRSvoVmpj60vuhb5y9VSO",
-  "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360614/noam_tdr2rp.jpg"
-},
-{
-  "_id": {
-    "$oid": "659fd60b810c3f98c205471b"
-  },
-  "fullname": "Mor Marzan",
-  "username": "Mor",
-  "password": "$2b$10$JVgMLchFqxlzzIlcC/zkhujEdEIw6ICnVyS4XRrfThlxKlUWhZryG",
-  "imgUrl": ""
-}]
+  {
+    "_id": {
+      "$oid": "659fd60b810c3f98c205471b"
+    },
+    "fullname": "Mor Marzan",
+    "username": "Mor",
+    "password": "$2b$10$JVgMLchFqxlzzIlcC/zkhujEdEIw6ICnVyS4XRrfThlxKlUWhZryG",
+    "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1705356175/7B12EEEE-8B9C-489B-882B-D5B8E47D9874_pjpibk.jpg"
+  }
+]
