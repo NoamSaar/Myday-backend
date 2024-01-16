@@ -1,3 +1,4 @@
+import { asyncLocalStorage } from "../../services/als.service.js"
 import { logger } from "../../services/logger.service.js"
 import { activityService } from "./activity.service.js"
 
@@ -30,7 +31,7 @@ export async function getActivityById(req, res) {
 }
 
 export async function addActivity(req, res) {
-    const { loggedinUser } = req
+    const { loggedinUser } = asyncLocalStorage.getStore()
 
     try {
         const activity = req.body
