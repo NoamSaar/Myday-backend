@@ -25,5 +25,49 @@
     "username": "Mor",
     "password": "$2b$10$JVgMLchFqxlzzIlcC/zkhujEdEIw6ICnVyS4XRrfThlxKlUWhZryG",
     "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1705356175/7B12EEEE-8B9C-489B-882B-D5B8E47D9874_pjpibk.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "123fd60b810c3f98c2055678"
+    },
+    "fullname": "Batel Katiei",
+    "username": "Batel123",
+    "password": "$2b$10$JVgMLchFqxlzzIlcC/zkhujEdEIw6ICnVyS4XRrfThlxKlUWhZryG",
+    "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1705387612/T05H7RU7LTF-U066KFT2SMA-3a898b9308d5-512_xha0yi.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "321fd60b810c3f98c2012345"
+    },
+    "fullname": "Daniel Shaked",
+    "username": "Daniel",
+    "password": "$2b$10$JVgMLchFqxlzzIlcC/zkhujEdEIw6ICnVyS4XRrfThlxKlUWhZryG",
+    "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1705387696/T05H7RU7LTF-U05P5TS1YHY-e3ff208078cb-512_mitinj.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "456fd60b810c3f98c2012543"
+    },
+    "fullname": "Tommy Irmia",
+    "username": "Tommy",
+    "password": "$2b$10$JVgMLchFqxlzzIlcC/zkhujEdEIw6ICnVyS4XRrfThlxKlUWhZryG",
+    "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1705387725/T05H7RU7LTF-U05H44GKN6S-2054b001848a-512_khise1.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "555fd60b810c3f98c2012555"
+    },
+    "fullname": "Konstantin Nochevny",
+    "username": "Konstantin222",
+    "password": "$2b$10$JVgMLchFqxlzzIlcC/zkhujEdEIw6ICnVyS4XRrfThlxKlUWhZryG",
+    "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1705387752/T05H7RU7LTF-U05QT3JRA69-02c2667f5c07-512_dyncuh.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "444fd60b810c3f98c2012444"
+    },
+    "fullname": "Mister Bit",
+    "username": "MisterBit",
+    "password": "$2b$10$JVgMLchFqxlzzIlcC/zkhujEdEIw6ICnVyS4XRrfThlxKlUWhZryG"
   }
 ]

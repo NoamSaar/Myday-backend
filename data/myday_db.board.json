@@ -77,6 +77,20 @@
             "_id": "659fd5db810c3f98c205471a",
             "fullname": "Noam Saar",
             "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360614/noam_tdr2rp.jpg"
+        },
+        {
+            "_id": "123fd60b810c3f98c2055678",
+            "fullname": "Batel Katiei",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1705387612/T05H7RU7LTF-U066KFT2SMA-3a898b9308d5-512_xha0yi.jpg"
+        },
+        {
+            "_id": "321fd60b810c3f98c2012345",
+            "fullname": "Daniel Shaked",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1705387696/T05H7RU7LTF-U05P5TS1YHY-e3ff208078cb-512_mitinj.jpg"
+        },
+        {
+            "_id": "444fd60b810c3f98c2012444",
+            "fullname": "Mister Bit"
         }
     ],
     "groups": [
