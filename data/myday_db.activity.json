@@ -1,33 +1,18 @@
 [
     {
-        "type": "create",
-        "entity": "group",
-        "txt": "Group created",
-        "createdAt": 1704308766516,
-        "byMember": {
-            "_id": "659fd5db810c3f98c205471a",
-            "fullname": "Noam Saar",
-            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360614/noam_tdr2rp.jpg"
+        "_id": {
+            "$oid": "65a70e57f20a7f9a567afca4"
         },
-        "board": {
-            "_id": "659fb84f43565a19c57dd627"
-        },
-        "group": {
-            "id": "g101",
-            "title": "Group Title"
-        }
-    },
-    {
         "type": "title",
         "entity": "group",
         "txt": "Group Title",
-        "from": "Group Title",
-        "to": "Features",
-        "createdAt": 1704308766516,
+        "createdAt": {
+            "$numberLong": "1705446999931"
+        },
         "byMember": {
-            "_id": "659fd5db810c3f98c205471a",
-            "fullname": "Noam Saar",
-            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360614/noam_tdr2rp.jpg"
+            "_id": "659fd60b810c3f98c205471b",
+            "fullname": "Mor Marzan",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1705356175/7B12EEEE-8B9C-489B-882B-D5B8E47D9874_pjpibk.jpg"
         },
         "board": {
             "_id": "659fb84f43565a19c57dd627"
@@ -35,19 +20,24 @@
         "group": {
             "id": "g101",
             "title": "Group Title"
-        }
+        },
+        "from": "Group Title",
+        "to": "Features"
     },
     {
+        "_id": {
+            "$oid": "65a70e66f20a7f9a567afca5"
+        },
         "type": "title",
         "entity": "task",
         "txt": "item 1",
-        "from": "item 1",
-        "to": "Add chat",
-        "createdAt": 1704308766516,
+        "createdAt": {
+            "$numberLong": "1705447014261"
+        },
         "byMember": {
-            "_id": "659fd5db810c3f98c205471a",
-            "fullname": "Noam Saar",
-            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360614/noam_tdr2rp.jpg"
+            "_id": "659fd52d810c3f98c2054719",
+            "fullname": "Eden Rize",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360556/catt_dytsgq.jpg"
         },
         "board": {
             "_id": "659fb84f43565a19c57dd627"
@@ -58,63 +48,50 @@
         },
         "task": {
             "id": "c101",
-            "title": "item 1"
-        }
+            "title": "Add about puki page"
+        },
+        "from": "item 1",
+        "to": "Add about puki page"
     },
     {
-        "type": "date",
-        "entity": "task",
-        "txt": "Date",
-        "from": "6 Jan",
-        "to": "4 Jan",
-        "createdAt": 1704308766516,
-        "byMember": {
-            "_id": "659fd5db810c3f98c205471a",
-            "fullname": "Noam Saar",
-            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360614/noam_tdr2rp.jpg"
+        "_id": {
+            "$oid": "65a70e6cf20a7f9a567afca6"
         },
-        "board": {
-            "_id": "659fb84f43565a19c57dd627"
-        },
-        "group": {
-            "_id": "g101",
-            "title": "Features"
-        },
-        "task": {
-            "id": "c101",
-            "title": "Add chat"
-        }
-    },
-    {
         "type": "person",
         "entity": "task",
         "txt": "Person",
+        "createdAt": {
+            "$numberLong": "1705447020851"
+        },
+        "byMember": {
+            "_id": "659fd60b810c3f98c205471b",
+            "fullname": "Mor Marzan",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1705356175/7B12EEEE-8B9C-489B-882B-D5B8E47D9874_pjpibk.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "g101",
+            "title": "Features"
+        },
+        "task": {
+            "id": "c101",
+            "title": "Add about puki page"
+        },
         "from": "Added",
-        "to": "659fd5db810c3f98c205471a",
-        "createdAt": 1704308766516,
-        "byMember": {
-            "_id": "659fd5db810c3f98c205471a",
-            "fullname": "Noam Saar",
-            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360614/noam_tdr2rp.jpg"
-        },
-        "board": {
-            "_id": "659fb84f43565a19c57dd627"
-        },
-        "group": {
-            "id": "g101",
-            "title": "Features"
-        },
-        "task": {
-            "id": "c101",
-            "title": "Add chat"
-        }
+        "to": "659fd52d810c3f98c2054719"
     },
     {
-        "type": "priority",
+        "_id": {
+            "$oid": "65a70e7ef20a7f9a567afca7"
+        },
+        "type": "date",
         "entity": "task",
-        "txt": "Priority",
-        "to": "Medium",
-        "createdAt": 1704308766516,
+        "txt": null,
+        "createdAt": {
+            "$numberLong": "1705447038330"
+        },
         "byMember": {
             "_id": "659fd5db810c3f98c205471a",
             "fullname": "Noam Saar",
@@ -129,15 +106,167 @@
         },
         "task": {
             "id": "c101",
-            "title": "Add chat"
+            "title": "Add about puki page"
+        },
+        "from": {
+            "$numberLong": "1703705909537"
         }
     },
     {
+        "_id": {
+            "$oid": "65a70e80f20a7f9a567afca8"
+        },
+        "type": "date",
+        "entity": "task",
+        "txt": null,
+        "createdAt": {
+            "$numberLong": "1705447040782"
+        },
+        "byMember": {
+            "_id": "659fd52d810c3f98c2054719",
+            "fullname": "Eden Rize",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360556/catt_dytsgq.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "g101",
+            "title": "Features"
+        },
+        "task": {
+            "id": "c101",
+            "title": "Add about puki page"
+        },
+        "to": {
+            "$numberLong": "1704924000000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "65a70e8cf20a7f9a567afca9"
+        },
+        "type": "title",
+        "entity": "task",
+        "txt": "Item 2",
+        "createdAt": {
+            "$numberLong": "1705447052321"
+        },
+        "byMember": {
+            "_id": "659fd60b810c3f98c205471b",
+            "fullname": "Mor Marzan",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1705356175/7B12EEEE-8B9C-489B-882B-D5B8E47D9874_pjpibk.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "g101",
+            "title": "Features"
+        },
+        "task": {
+            "id": "c102",
+            "title": "Item 2"
+        },
+        "from": "Item 2",
+        "to": "Item 2"
+    },
+    {
+        "_id": {
+            "$oid": "65a70e96f20a7f9a567afcaa"
+        },
+        "type": "title",
+        "entity": "task",
+        "txt": "Item 2",
+        "createdAt": {
+            "$numberLong": "1705447062098"
+        },
+        "byMember": {
+            "_id": "659fd60b810c3f98c205471b",
+            "fullname": "Mor Marzan",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1705356175/7B12EEEE-8B9C-489B-882B-D5B8E47D9874_pjpibk.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "g101",
+            "title": "Features"
+        },
+        "task": {
+            "id": "c102",
+            "title": "Add paging"
+        },
+        "from": "Item 2",
+        "to": "Add paging"
+    },
+    {
+        "_id": {
+            "$oid": "65a70e9ff20a7f9a567afcab"
+        },
+        "type": "title",
+        "entity": "task",
+        "txt": "Item 3",
+        "createdAt": {
+            "$numberLong": "1705447071474"
+        },
+        "byMember": {
+            "_id": "659fd52d810c3f98c2054719",
+            "fullname": "Eden Rize",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360556/catt_dytsgq.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "g101",
+            "title": "Features"
+        },
+        "task": {
+            "id": "c103",
+            "title": "Add chat"
+        },
+        "from": "Item 3",
+        "to": "Add chat"
+    },
+    {
+        "_id": {
+            "$oid": "65a70ebff20a7f9a567afcac"
+        },
         "type": "status",
         "entity": "task",
-        "txt": "Status",
-        "to": "Working on it",
-        "createdAt": 1704308766516,
+        "txt": null,
+        "createdAt": {
+            "$numberLong": "1705447103165"
+        },
+        "byMember": {
+            "_id": "659fd52d810c3f98c2054719",
+            "fullname": "Eden Rize",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360556/catt_dytsgq.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "g101",
+            "title": "Features"
+        },
+        "task": {
+            "id": "c102",
+            "title": "Add paging"
+        },
+        "from": "Done"
+    },
+    {
+        "_id": {
+            "$oid": "65a70ec1f20a7f9a567afcad"
+        },
+        "type": "status",
+        "entity": "task",
+        "txt": null,
+        "createdAt": {
+            "$numberLong": "1705447105369"
+        },
         "byMember": {
             "_id": "659fd5db810c3f98c205471a",
             "fullname": "Noam Saar",
@@ -151,20 +280,88 @@
             "title": "Features"
         },
         "task": {
-            "id": "c101",
-            "title": "Add chat"
+            "id": "c102",
+            "title": "Add paging"
+        },
+        "from": "Needs QA",
+        "to": "Needs QA"
+    },
+    {
+        "_id": {
+            "$oid": "65a70ecff20a7f9a567afcae"
+        },
+        "type": "priority",
+        "entity": "task",
+        "txt": null,
+        "createdAt": {
+            "$numberLong": "1705447119431"
+        },
+        "byMember": {
+            "_id": "659fd60b810c3f98c205471b",
+            "fullname": "Mor Marzan",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1705356175/7B12EEEE-8B9C-489B-882B-D5B8E47D9874_pjpibk.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "g101",
+            "title": "Features"
+        },
+        "task": {
+            "id": "c102",
+            "title": "Add paging"
+        },
+        "from": "Critical ⚠",
+        "to": "Medium"
+    },
+    {
+        "_id": {
+            "$oid": "65a70ed3f20a7f9a567afcaf"
+        },
+        "type": "date",
+        "entity": "task",
+        "txt": null,
+        "createdAt": {
+            "$numberLong": "1705447123053"
+        },
+        "byMember": {
+            "_id": "659fd60b810c3f98c205471b",
+            "fullname": "Mor Marzan",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1705356175/7B12EEEE-8B9C-489B-882B-D5B8E47D9874_pjpibk.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "g101",
+            "title": "Features"
+        },
+        "task": {
+            "id": "c102",
+            "title": "Add paging"
+        },
+        "from": {
+            "$numberLong": "1703708909537"
+        },
+        "to": {
+            "$numberLong": "1701813600000"
         }
     },
     {
-        "type": "link",
+        "_id": {
+            "$oid": "65a70eddf20a7f9a567afcb0"
+        },
+        "type": "person",
         "entity": "task",
-        "txt": "Link",
-        "to": "Socket docs",
-        "createdAt": 1704308766516,
+        "txt": "Person",
+        "createdAt": {
+            "$numberLong": "1705447133954"
+        },
         "byMember": {
-            "_id": "659fd5db810c3f98c205471a",
-            "fullname": "Noam Saar",
-            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360614/noam_tdr2rp.jpg"
+            "_id": "659fd52d810c3f98c2054719",
+            "fullname": "Eden Rize",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360556/catt_dytsgq.jpg"
         },
         "board": {
             "_id": "659fb84f43565a19c57dd627"
@@ -174,8 +371,1725 @@
             "title": "Features"
         },
         "task": {
-            "id": "c101",
+            "id": "c102",
+            "title": "Add paging"
+        },
+        "from": "Added",
+        "to": "659fd52d810c3f98c2054719"
+    },
+    {
+        "_id": {
+            "$oid": "65a70edff20a7f9a567afcb1"
+        },
+        "type": "person",
+        "entity": "task",
+        "txt": "Person",
+        "createdAt": {
+            "$numberLong": "1705447135155"
+        },
+        "byMember": {
+            "_id": "659fd52d810c3f98c2054719",
+            "fullname": "Eden Rize",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360556/catt_dytsgq.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "g101",
+            "title": "Features"
+        },
+        "task": {
+            "id": "c102",
+            "title": "Add paging"
+        },
+        "from": "Added",
+        "to": "659fd60b810c3f98c205471b"
+    },
+    {
+        "_id": {
+            "$oid": "65a70ee0f20a7f9a567afcb2"
+        },
+        "type": "person",
+        "entity": "task",
+        "txt": "Person",
+        "createdAt": {
+            "$numberLong": "1705447136032"
+        },
+        "byMember": {
+            "_id": "659fd60b810c3f98c205471b",
+            "fullname": "Mor Marzan",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1705356175/7B12EEEE-8B9C-489B-882B-D5B8E47D9874_pjpibk.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "g101",
+            "title": "Features"
+        },
+        "task": {
+            "id": "c102",
+            "title": "Add paging"
+        },
+        "from": "Added",
+        "to": "659fd5db810c3f98c205471a"
+    },
+    {
+        "_id": {
+            "$oid": "65a70ef2f20a7f9a567afcb3"
+        },
+        "type": "person",
+        "entity": "task",
+        "txt": "Person",
+        "createdAt": {
+            "$numberLong": "1705447154783"
+        },
+        "byMember": {
+            "_id": "659fd60b810c3f98c205471b",
+            "fullname": "Mor Marzan",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1705356175/7B12EEEE-8B9C-489B-882B-D5B8E47D9874_pjpibk.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "g101",
+            "title": "Features"
+        },
+        "task": {
+            "id": "c103",
             "title": "Add chat"
+        },
+        "from": "Added",
+        "to": "659fd5db810c3f98c205471a"
+    },
+    {
+        "_id": {
+            "$oid": "65a70ef6f20a7f9a567afcb4"
+        },
+        "type": "status",
+        "entity": "task",
+        "txt": null,
+        "createdAt": {
+            "$numberLong": "1705447158741"
+        },
+        "byMember": {
+            "_id": "659fd60b810c3f98c205471b",
+            "fullname": "Mor Marzan",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1705356175/7B12EEEE-8B9C-489B-882B-D5B8E47D9874_pjpibk.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "g101",
+            "title": "Features"
+        },
+        "task": {
+            "id": "c103",
+            "title": "Add chat"
+        },
+        "from": "-",
+        "to": "Stuck"
+    },
+    {
+        "_id": {
+            "$oid": "65a70ef8f20a7f9a567afcb5"
+        },
+        "type": "priority",
+        "entity": "task",
+        "txt": null,
+        "createdAt": {
+            "$numberLong": "1705447160966"
+        },
+        "byMember": {
+            "_id": "659fd52d810c3f98c2054719",
+            "fullname": "Eden Rize",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360556/catt_dytsgq.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "g101",
+            "title": "Features"
+        },
+        "task": {
+            "id": "c103",
+            "title": "Add chat"
+        },
+        "from": "-",
+        "to": "Low"
+    },
+    {
+        "_id": {
+            "$oid": "65a70f0af20a7f9a567afcb6"
+        },
+        "type": "title",
+        "entity": "group",
+        "txt": "Group Title",
+        "createdAt": {
+            "$numberLong": "1705447178679"
+        },
+        "byMember": {
+            "_id": "659fd52d810c3f98c2054719",
+            "fullname": "Eden Rize",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360556/catt_dytsgq.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "g102",
+            "title": "Group Title"
+        },
+        "from": "Group Title",
+        "to": "Refactor"
+    },
+    {
+        "_id": {
+            "$oid": "65a70f11f20a7f9a567afcb7"
+        },
+        "type": "group color",
+        "entity": "group",
+        "txt": null,
+        "createdAt": {
+            "$numberLong": "1705447185693"
+        },
+        "byMember": {
+            "_id": "659fd52d810c3f98c2054719",
+            "fullname": "Eden Rize",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360556/catt_dytsgq.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "g102",
+            "title": "Refactor"
+        },
+        "from": "#a25ddc",
+        "to": "#007038"
+    },
+    {
+        "_id": {
+            "$oid": "65a70f18f20a7f9a567afcb8"
+        },
+        "type": "title",
+        "entity": "task",
+        "txt": "Item 4",
+        "createdAt": {
+            "$numberLong": "1705447192602"
+        },
+        "byMember": {
+            "_id": "659fd52d810c3f98c2054719",
+            "fullname": "Eden Rize",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360556/catt_dytsgq.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "g102",
+            "title": "Refactor"
+        },
+        "task": {
+            "id": "c201",
+            "title": "Reactor css files to scss"
+        },
+        "from": "Item 4",
+        "to": "Reactor css files to scss"
+    },
+    {
+        "_id": {
+            "$oid": "65a70f1cf20a7f9a567afcb9"
+        },
+        "type": "person",
+        "entity": "task",
+        "txt": "Person",
+        "createdAt": {
+            "$numberLong": "1705447196633"
+        },
+        "byMember": {
+            "_id": "659fd60b810c3f98c205471b",
+            "fullname": "Mor Marzan",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1705356175/7B12EEEE-8B9C-489B-882B-D5B8E47D9874_pjpibk.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "g102",
+            "title": "Refactor"
+        },
+        "task": {
+            "id": "c201",
+            "title": "Reactor css files to scss"
+        },
+        "from": "Added",
+        "to": "659fd5db810c3f98c205471a"
+    },
+    {
+        "_id": {
+            "$oid": "65a70f1ef20a7f9a567afcba"
+        },
+        "type": "status",
+        "entity": "task",
+        "txt": null,
+        "createdAt": {
+            "$numberLong": "1705447198661"
+        },
+        "byMember": {
+            "_id": "659fd5db810c3f98c205471a",
+            "fullname": "Noam Saar",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360614/noam_tdr2rp.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "g102",
+            "title": "Refactor"
+        },
+        "task": {
+            "id": "c201",
+            "title": "Reactor css files to scss"
+        },
+        "from": "-",
+        "to": "Done"
+    },
+    {
+        "_id": {
+            "$oid": "65a70f20f20a7f9a567afcbb"
+        },
+        "type": "priority",
+        "entity": "task",
+        "txt": null,
+        "createdAt": {
+            "$numberLong": "1705447200616"
+        },
+        "byMember": {
+            "_id": "659fd60b810c3f98c205471b",
+            "fullname": "Mor Marzan",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1705356175/7B12EEEE-8B9C-489B-882B-D5B8E47D9874_pjpibk.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "g102",
+            "title": "Refactor"
+        },
+        "task": {
+            "id": "c201",
+            "title": "Reactor css files to scss"
+        },
+        "from": "-",
+        "to": "Critical ⚠"
+    },
+    {
+        "_id": {
+            "$oid": "65a70f27f20a7f9a567afcbc"
+        },
+        "type": "date",
+        "entity": "task",
+        "txt": null,
+        "createdAt": {
+            "$numberLong": "1705447207748"
+        },
+        "byMember": {
+            "_id": "659fd5db810c3f98c205471a",
+            "fullname": "Noam Saar",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360614/noam_tdr2rp.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "g102",
+            "title": "Refactor"
+        },
+        "task": {
+            "id": "c201",
+            "title": "Reactor css files to scss"
+        },
+        "to": {
+            "$numberLong": "1704232800000"
         }
+    },
+    {
+        "_id": {
+            "$oid": "65a70f3af20a7f9a567afcbd"
+        },
+        "type": "title",
+        "entity": "task",
+        "txt": "Item 5",
+        "createdAt": {
+            "$numberLong": "1705447226367"
+        },
+        "byMember": {
+            "_id": "659fd5db810c3f98c205471a",
+            "fullname": "Noam Saar",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360614/noam_tdr2rp.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "g102",
+            "title": "Refactor"
+        },
+        "task": {
+            "id": "c202",
+            "title": "Refactor Filter.jsx into Components"
+        },
+        "from": "Item 5",
+        "to": "Refactor Filter.jsx into Components"
+    },
+    {
+        "_id": {
+            "$oid": "65a70f3ef20a7f9a567afcbe"
+        },
+        "type": "status",
+        "entity": "task",
+        "txt": null,
+        "createdAt": {
+            "$numberLong": "1705447230731"
+        },
+        "byMember": {
+            "_id": "659fd5db810c3f98c205471a",
+            "fullname": "Noam Saar",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360614/noam_tdr2rp.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "g102",
+            "title": "Refactor"
+        },
+        "task": {
+            "id": "c202",
+            "title": "Refactor Filter.jsx into Components"
+        },
+        "from": "-",
+        "to": "Done"
+    },
+    {
+        "_id": {
+            "$oid": "65a70f42f20a7f9a567afcbf"
+        },
+        "type": "priority",
+        "entity": "task",
+        "txt": null,
+        "createdAt": {
+            "$numberLong": "1705447234499"
+        },
+        "byMember": {
+            "_id": "659fd52d810c3f98c2054719",
+            "fullname": "Eden Rize",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360556/catt_dytsgq.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "g102",
+            "title": "Refactor"
+        },
+        "task": {
+            "id": "c202",
+            "title": "Refactor Filter.jsx into Components"
+        },
+        "from": "-",
+        "to": "Medium"
+    },
+    {
+        "_id": {
+            "$oid": "65a70f44f20a7f9a567afcc0"
+        },
+        "type": "date",
+        "entity": "task",
+        "txt": null,
+        "createdAt": {
+            "$numberLong": "1705447236676"
+        },
+        "byMember": {
+            "_id": "659fd52d810c3f98c2054719",
+            "fullname": "Eden Rize",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360556/catt_dytsgq.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "g102",
+            "title": "Refactor"
+        },
+        "task": {
+            "id": "c202",
+            "title": "Refactor Filter.jsx into Components"
+        },
+        "to": {
+            "$numberLong": "1706047200000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "65a70f4cf20a7f9a567afcc1"
+        },
+        "type": "create",
+        "entity": "task",
+        "txt": "task created",
+        "createdAt": {
+            "$numberLong": "1705447244586"
+        },
+        "byMember": {
+            "_id": "659fd60b810c3f98c205471b",
+            "fullname": "Mor Marzan",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1705356175/7B12EEEE-8B9C-489B-882B-D5B8E47D9874_pjpibk.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "g102",
+            "title": "Refactor"
+        },
+        "task": {
+            "id": "sHa8nO",
+            "title": "Refactor to use Store Redux"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "65a70f58f20a7f9a567afcc2"
+        },
+        "type": "person",
+        "entity": "task",
+        "txt": "Person",
+        "createdAt": {
+            "$numberLong": "1705447256403"
+        },
+        "byMember": {
+            "_id": "659fd60b810c3f98c205471b",
+            "fullname": "Mor Marzan",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1705356175/7B12EEEE-8B9C-489B-882B-D5B8E47D9874_pjpibk.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "g102",
+            "title": "Refactor"
+        },
+        "task": {
+            "id": "sHa8nO",
+            "title": "Refactor to use Store Redux"
+        },
+        "from": "Added",
+        "to": "659fd52d810c3f98c2054719"
+    },
+    {
+        "_id": {
+            "$oid": "65a70f58f20a7f9a567afcc3"
+        },
+        "type": "person",
+        "entity": "task",
+        "txt": "Person",
+        "createdAt": {
+            "$numberLong": "1705447256972"
+        },
+        "byMember": {
+            "_id": "659fd60b810c3f98c205471b",
+            "fullname": "Mor Marzan",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1705356175/7B12EEEE-8B9C-489B-882B-D5B8E47D9874_pjpibk.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "g102",
+            "title": "Refactor"
+        },
+        "task": {
+            "id": "sHa8nO",
+            "title": "Refactor to use Store Redux"
+        },
+        "from": "Added",
+        "to": "659fd60b810c3f98c205471b"
+    },
+    {
+        "_id": {
+            "$oid": "65a70f59f20a7f9a567afcc4"
+        },
+        "type": "person",
+        "entity": "task",
+        "txt": "Person",
+        "createdAt": {
+            "$numberLong": "1705447257831"
+        },
+        "byMember": {
+            "_id": "659fd5db810c3f98c205471a",
+            "fullname": "Noam Saar",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360614/noam_tdr2rp.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "g102",
+            "title": "Refactor"
+        },
+        "task": {
+            "id": "sHa8nO",
+            "title": "Refactor to use Store Redux"
+        },
+        "from": "Added",
+        "to": "659fd5db810c3f98c205471a"
+    },
+    {
+        "_id": {
+            "$oid": "65a70f5cf20a7f9a567afcc5"
+        },
+        "type": "status",
+        "entity": "task",
+        "txt": null,
+        "createdAt": {
+            "$numberLong": "1705447260268"
+        },
+        "byMember": {
+            "_id": "659fd5db810c3f98c205471a",
+            "fullname": "Noam Saar",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360614/noam_tdr2rp.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "g102",
+            "title": "Refactor"
+        },
+        "task": {
+            "id": "sHa8nO",
+            "title": "Refactor to use Store Redux"
+        },
+        "from": "-",
+        "to": "Stuck"
+    },
+    {
+        "_id": {
+            "$oid": "65a70f5ef20a7f9a567afcc6"
+        },
+        "type": "priority",
+        "entity": "task",
+        "txt": null,
+        "createdAt": {
+            "$numberLong": "1705447262339"
+        },
+        "byMember": {
+            "_id": "659fd5db810c3f98c205471a",
+            "fullname": "Noam Saar",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360614/noam_tdr2rp.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "g102",
+            "title": "Refactor"
+        },
+        "task": {
+            "id": "sHa8nO",
+            "title": "Refactor to use Store Redux"
+        },
+        "from": "-",
+        "to": "Critical ⚠"
+    },
+    {
+        "_id": {
+            "$oid": "65a70f66f20a7f9a567afcc7"
+        },
+        "type": "create",
+        "entity": "task",
+        "txt": "task created",
+        "createdAt": {
+            "$numberLong": "1705447270759"
+        },
+        "byMember": {
+            "_id": "659fd5db810c3f98c205471a",
+            "fullname": "Noam Saar",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360614/noam_tdr2rp.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "g102",
+            "title": "Refactor"
+        },
+        "task": {
+            "id": "IHmk6f",
+            "title": "Refactor service to use http"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "65a70f6af20a7f9a567afcc8"
+        },
+        "type": "person",
+        "entity": "task",
+        "txt": "Person",
+        "createdAt": {
+            "$numberLong": "1705447274185"
+        },
+        "byMember": {
+            "_id": "659fd60b810c3f98c205471b",
+            "fullname": "Mor Marzan",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1705356175/7B12EEEE-8B9C-489B-882B-D5B8E47D9874_pjpibk.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "g102",
+            "title": "Refactor"
+        },
+        "task": {
+            "id": "IHmk6f",
+            "title": "Refactor service to use http"
+        },
+        "from": "Added",
+        "to": "659fd5db810c3f98c205471a"
+    },
+    {
+        "_id": {
+            "$oid": "65a70f6bf20a7f9a567afcc9"
+        },
+        "type": "status",
+        "entity": "task",
+        "txt": null,
+        "createdAt": {
+            "$numberLong": "1705447275990"
+        },
+        "byMember": {
+            "_id": "659fd5db810c3f98c205471a",
+            "fullname": "Noam Saar",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360614/noam_tdr2rp.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "g102",
+            "title": "Refactor"
+        },
+        "task": {
+            "id": "IHmk6f",
+            "title": "Refactor service to use http"
+        },
+        "from": "-",
+        "to": "Working on it"
+    },
+    {
+        "_id": {
+            "$oid": "65a70f6ef20a7f9a567afcca"
+        },
+        "type": "priority",
+        "entity": "task",
+        "txt": null,
+        "createdAt": {
+            "$numberLong": "1705447278046"
+        },
+        "byMember": {
+            "_id": "659fd5db810c3f98c205471a",
+            "fullname": "Noam Saar",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360614/noam_tdr2rp.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "g102",
+            "title": "Refactor"
+        },
+        "task": {
+            "id": "IHmk6f",
+            "title": "Refactor service to use http"
+        },
+        "from": "-",
+        "to": "High"
+    },
+    {
+        "_id": {
+            "$oid": "65a70f7df20a7f9a567afccb"
+        },
+        "type": "create",
+        "entity": "task",
+        "txt": "task created",
+        "createdAt": {
+            "$numberLong": "1705447293448"
+        },
+        "byMember": {
+            "_id": "659fd5db810c3f98c205471a",
+            "fullname": "Noam Saar",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360614/noam_tdr2rp.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "g102",
+            "title": "Refactor"
+        },
+        "task": {
+            "id": "17sfY6",
+            "title": "Refactor vars/lets to const"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "65a70f7ff20a7f9a567afccc"
+        },
+        "type": "person",
+        "entity": "task",
+        "txt": "Person",
+        "createdAt": {
+            "$numberLong": "1705447295871"
+        },
+        "byMember": {
+            "_id": "659fd5db810c3f98c205471a",
+            "fullname": "Noam Saar",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360614/noam_tdr2rp.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "g102",
+            "title": "Refactor"
+        },
+        "task": {
+            "id": "17sfY6",
+            "title": "Refactor vars/lets to const"
+        },
+        "from": "Added",
+        "to": "659fd60b810c3f98c205471b"
+    },
+    {
+        "_id": {
+            "$oid": "65a70f84f20a7f9a567afccd"
+        },
+        "type": "status",
+        "entity": "task",
+        "txt": null,
+        "createdAt": {
+            "$numberLong": "1705447300311"
+        },
+        "byMember": {
+            "_id": "659fd60b810c3f98c205471b",
+            "fullname": "Mor Marzan",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1705356175/7B12EEEE-8B9C-489B-882B-D5B8E47D9874_pjpibk.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "g102",
+            "title": "Refactor"
+        },
+        "task": {
+            "id": "17sfY6",
+            "title": "Refactor vars/lets to const"
+        },
+        "from": "-",
+        "to": "Done"
+    },
+    {
+        "_id": {
+            "$oid": "65a70f89f20a7f9a567afcce"
+        },
+        "type": "create",
+        "entity": "group",
+        "txt": "group created",
+        "createdAt": {
+            "$numberLong": "1705447305919"
+        },
+        "byMember": {
+            "_id": "659fd60b810c3f98c205471b",
+            "fullname": "Mor Marzan",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1705356175/7B12EEEE-8B9C-489B-882B-D5B8E47D9874_pjpibk.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "mdXG82",
+            "title": "Group Title"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "65a70f8ff20a7f9a567afccf"
+        },
+        "type": "title",
+        "entity": "group",
+        "txt": "New Group",
+        "createdAt": {
+            "$numberLong": "1705447311781"
+        },
+        "byMember": {
+            "_id": "659fd60b810c3f98c205471b",
+            "fullname": "Mor Marzan",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1705356175/7B12EEEE-8B9C-489B-882B-D5B8E47D9874_pjpibk.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "mdXG82",
+            "title": "New Group"
+        },
+        "from": "New Group",
+        "to": "Bugs"
+    },
+    {
+        "_id": {
+            "$oid": "65a70f93f20a7f9a567afcd0"
+        },
+        "type": "group color",
+        "entity": "group",
+        "txt": null,
+        "createdAt": {
+            "$numberLong": "1705447315084"
+        },
+        "byMember": {
+            "_id": "659fd52d810c3f98c2054719",
+            "fullname": "Eden Rize",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360556/catt_dytsgq.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "mdXG82",
+            "title": "Bugs"
+        },
+        "from": "#ff7575",
+        "to": "#8050ab"
+    },
+    {
+        "_id": {
+            "$oid": "65a70f99f20a7f9a567afcd1"
+        },
+        "type": "create",
+        "entity": "task",
+        "txt": "task created",
+        "createdAt": {
+            "$numberLong": "1705447321482"
+        },
+        "byMember": {
+            "_id": "659fd52d810c3f98c2054719",
+            "fullname": "Eden Rize",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360556/catt_dytsgq.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "mdXG82",
+            "title": "Bugs"
+        },
+        "task": {
+            "id": "FhrfCc",
+            "title": "Misaligned Layout on Mobile Devices"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "65a70fa1f20a7f9a567afcd2"
+        },
+        "type": "person",
+        "entity": "task",
+        "txt": "Person",
+        "createdAt": {
+            "$numberLong": "1705447329772"
+        },
+        "byMember": {
+            "_id": "659fd52d810c3f98c2054719",
+            "fullname": "Eden Rize",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360556/catt_dytsgq.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "mdXG82",
+            "title": "Bugs"
+        },
+        "task": {
+            "id": "FhrfCc",
+            "title": "Misaligned Layout on Mobile Devices"
+        },
+        "from": "Added",
+        "to": "659fd52d810c3f98c2054719"
+    },
+    {
+        "_id": {
+            "$oid": "65a70fa2f20a7f9a567afcd3"
+        },
+        "type": "person",
+        "entity": "task",
+        "txt": "Person",
+        "createdAt": {
+            "$numberLong": "1705447330461"
+        },
+        "byMember": {
+            "_id": "659fd52d810c3f98c2054719",
+            "fullname": "Eden Rize",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360556/catt_dytsgq.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "mdXG82",
+            "title": "Bugs"
+        },
+        "task": {
+            "id": "FhrfCc",
+            "title": "Misaligned Layout on Mobile Devices"
+        },
+        "from": "Added",
+        "to": "659fd60b810c3f98c205471b"
+    },
+    {
+        "_id": {
+            "$oid": "65a70fa5f20a7f9a567afcd4"
+        },
+        "type": "status",
+        "entity": "task",
+        "txt": null,
+        "createdAt": {
+            "$numberLong": "1705447333766"
+        },
+        "byMember": {
+            "_id": "659fd60b810c3f98c205471b",
+            "fullname": "Mor Marzan",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1705356175/7B12EEEE-8B9C-489B-882B-D5B8E47D9874_pjpibk.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "mdXG82",
+            "title": "Bugs"
+        },
+        "task": {
+            "id": "FhrfCc",
+            "title": "Misaligned Layout on Mobile Devices"
+        },
+        "from": "-",
+        "to": "Working on it"
+    },
+    {
+        "_id": {
+            "$oid": "65a70fa7f20a7f9a567afcd5"
+        },
+        "type": "priority",
+        "entity": "task",
+        "txt": null,
+        "createdAt": {
+            "$numberLong": "1705447335490"
+        },
+        "byMember": {
+            "_id": "659fd60b810c3f98c205471b",
+            "fullname": "Mor Marzan",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1705356175/7B12EEEE-8B9C-489B-882B-D5B8E47D9874_pjpibk.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "mdXG82",
+            "title": "Bugs"
+        },
+        "task": {
+            "id": "FhrfCc",
+            "title": "Misaligned Layout on Mobile Devices"
+        },
+        "from": "-",
+        "to": "Low"
+    },
+    {
+        "_id": {
+            "$oid": "65a70faef20a7f9a567afcd6"
+        },
+        "type": "create",
+        "entity": "task",
+        "txt": "task created",
+        "createdAt": {
+            "$numberLong": "1705447342372"
+        },
+        "byMember": {
+            "_id": "659fd52d810c3f98c2054719",
+            "fullname": "Eden Rize",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360556/catt_dytsgq.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "mdXG82",
+            "title": "Bugs"
+        },
+        "task": {
+            "id": "HWsueH",
+            "title": "Unresponsive Button on Click"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "65a70fb1f20a7f9a567afcd7"
+        },
+        "type": "person",
+        "entity": "task",
+        "txt": "Person",
+        "createdAt": {
+            "$numberLong": "1705447345202"
+        },
+        "byMember": {
+            "_id": "659fd60b810c3f98c205471b",
+            "fullname": "Mor Marzan",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1705356175/7B12EEEE-8B9C-489B-882B-D5B8E47D9874_pjpibk.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "mdXG82",
+            "title": "Bugs"
+        },
+        "task": {
+            "id": "HWsueH",
+            "title": "Unresponsive Button on Click"
+        },
+        "from": "Added",
+        "to": "659fd60b810c3f98c205471b"
+    },
+    {
+        "_id": {
+            "$oid": "65a70fb3f20a7f9a567afcd8"
+        },
+        "type": "status",
+        "entity": "task",
+        "txt": null,
+        "createdAt": {
+            "$numberLong": "1705447347272"
+        },
+        "byMember": {
+            "_id": "659fd52d810c3f98c2054719",
+            "fullname": "Eden Rize",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360556/catt_dytsgq.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "mdXG82",
+            "title": "Bugs"
+        },
+        "task": {
+            "id": "HWsueH",
+            "title": "Unresponsive Button on Click"
+        },
+        "from": "-",
+        "to": "Done"
+    },
+    {
+        "_id": {
+            "$oid": "65a70fb5f20a7f9a567afcd9"
+        },
+        "type": "priority",
+        "entity": "task",
+        "txt": null,
+        "createdAt": {
+            "$numberLong": "1705447349426"
+        },
+        "byMember": {
+            "_id": "659fd60b810c3f98c205471b",
+            "fullname": "Mor Marzan",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1705356175/7B12EEEE-8B9C-489B-882B-D5B8E47D9874_pjpibk.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "mdXG82",
+            "title": "Bugs"
+        },
+        "task": {
+            "id": "HWsueH",
+            "title": "Unresponsive Button on Click"
+        },
+        "from": "-",
+        "to": "Critical ⚠"
+    },
+    {
+        "_id": {
+            "$oid": "65a70fb8f20a7f9a567afcda"
+        },
+        "type": "date",
+        "entity": "task",
+        "txt": null,
+        "createdAt": {
+            "$numberLong": "1705447352604"
+        },
+        "byMember": {
+            "_id": "659fd60b810c3f98c205471b",
+            "fullname": "Mor Marzan",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1705356175/7B12EEEE-8B9C-489B-882B-D5B8E47D9874_pjpibk.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "mdXG82",
+            "title": "Bugs"
+        },
+        "task": {
+            "id": "HWsueH",
+            "title": "Unresponsive Button on Click"
+        },
+        "to": {
+            "$numberLong": "1705528800000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "65a70fbff20a7f9a567afcdb"
+        },
+        "type": "date",
+        "entity": "task",
+        "txt": null,
+        "createdAt": {
+            "$numberLong": "1705447359693"
+        },
+        "byMember": {
+            "_id": "659fd60b810c3f98c205471b",
+            "fullname": "Mor Marzan",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1705356175/7B12EEEE-8B9C-489B-882B-D5B8E47D9874_pjpibk.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "mdXG82",
+            "title": "Bugs"
+        },
+        "task": {
+            "id": "HWsueH",
+            "title": "Unresponsive Button on Click"
+        },
+        "from": {
+            "$numberLong": "1705528800000"
+        },
+        "to": {
+            "$numberLong": "1705874400000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "65a70fc4f20a7f9a567afcdc"
+        },
+        "type": "create",
+        "entity": "task",
+        "txt": "task created",
+        "createdAt": {
+            "$numberLong": "1705447364583"
+        },
+        "byMember": {
+            "_id": "659fd60b810c3f98c205471b",
+            "fullname": "Mor Marzan",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1705356175/7B12EEEE-8B9C-489B-882B-D5B8E47D9874_pjpibk.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "mdXG82",
+            "title": "Bugs"
+        },
+        "task": {
+            "id": "pDv2dv",
+            "title": "Broken Image Links"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "65a70fc7f20a7f9a567afcdd"
+        },
+        "type": "person",
+        "entity": "task",
+        "txt": "Person",
+        "createdAt": {
+            "$numberLong": "1705447367534"
+        },
+        "byMember": {
+            "_id": "659fd52d810c3f98c2054719",
+            "fullname": "Eden Rize",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360556/catt_dytsgq.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "mdXG82",
+            "title": "Bugs"
+        },
+        "task": {
+            "id": "pDv2dv",
+            "title": "Broken Image Links"
+        },
+        "from": "Added",
+        "to": "659fd5db810c3f98c205471a"
+    },
+    {
+        "_id": {
+            "$oid": "65a70fcbf20a7f9a567afcde"
+        },
+        "type": "status",
+        "entity": "task",
+        "txt": null,
+        "createdAt": {
+            "$numberLong": "1705447371003"
+        },
+        "byMember": {
+            "_id": "659fd60b810c3f98c205471b",
+            "fullname": "Mor Marzan",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1705356175/7B12EEEE-8B9C-489B-882B-D5B8E47D9874_pjpibk.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "mdXG82",
+            "title": "Bugs"
+        },
+        "task": {
+            "id": "pDv2dv",
+            "title": "Broken Image Links"
+        },
+        "from": "-",
+        "to": "Working on it"
+    },
+    {
+        "_id": {
+            "$oid": "65a70fcdf20a7f9a567afcdf"
+        },
+        "type": "priority",
+        "entity": "task",
+        "txt": null,
+        "createdAt": {
+            "$numberLong": "1705447373684"
+        },
+        "byMember": {
+            "_id": "659fd5db810c3f98c205471a",
+            "fullname": "Noam Saar",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360614/noam_tdr2rp.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "mdXG82",
+            "title": "Bugs"
+        },
+        "task": {
+            "id": "pDv2dv",
+            "title": "Broken Image Links"
+        },
+        "from": "-",
+        "to": "Low"
+    },
+    {
+        "_id": {
+            "$oid": "65a70fd0f20a7f9a567afce0"
+        },
+        "type": "date",
+        "entity": "task",
+        "txt": null,
+        "createdAt": {
+            "$numberLong": "1705447376483"
+        },
+        "byMember": {
+            "_id": "659fd52d810c3f98c2054719",
+            "fullname": "Eden Rize",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360556/catt_dytsgq.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "mdXG82",
+            "title": "Bugs"
+        },
+        "task": {
+            "id": "pDv2dv",
+            "title": "Broken Image Links"
+        },
+        "to": {
+            "$numberLong": "1705788000000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "65a70fd2f20a7f9a567afce1"
+        },
+        "type": "date",
+        "entity": "task",
+        "txt": null,
+        "createdAt": {
+            "$numberLong": "1705447378206"
+        },
+        "byMember": {
+            "_id": "659fd5db810c3f98c205471a",
+            "fullname": "Noam Saar",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360614/noam_tdr2rp.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "mdXG82",
+            "title": "Bugs"
+        },
+        "task": {
+            "id": "pDv2dv",
+            "title": "Broken Image Links"
+        },
+        "from": {
+            "$numberLong": "1705788000000"
+        },
+        "to": {
+            "$numberLong": "1704837600000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "65a70fd9f20a7f9a567afce2"
+        },
+        "type": "create",
+        "entity": "task",
+        "txt": "task created",
+        "createdAt": {
+            "$numberLong": "1705447385666"
+        },
+        "byMember": {
+            "_id": "659fd52d810c3f98c2054719",
+            "fullname": "Eden Rize",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360556/catt_dytsgq.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "mdXG82",
+            "title": "Bugs"
+        },
+        "task": {
+            "id": "zqgnpK",
+            "title": "Inconsistent Styling Across Browsers"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "65a70fdcf20a7f9a567afce3"
+        },
+        "type": "person",
+        "entity": "task",
+        "txt": "Person",
+        "createdAt": {
+            "$numberLong": "1705447388665"
+        },
+        "byMember": {
+            "_id": "659fd5db810c3f98c205471a",
+            "fullname": "Noam Saar",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360614/noam_tdr2rp.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "mdXG82",
+            "title": "Bugs"
+        },
+        "task": {
+            "id": "zqgnpK",
+            "title": "Inconsistent Styling Across Browsers"
+        },
+        "from": "Added",
+        "to": "659fd60b810c3f98c205471b"
+    },
+    {
+        "_id": {
+            "$oid": "65a70fdff20a7f9a567afce4"
+        },
+        "type": "status",
+        "entity": "task",
+        "txt": null,
+        "createdAt": {
+            "$numberLong": "1705447391207"
+        },
+        "byMember": {
+            "_id": "659fd60b810c3f98c205471b",
+            "fullname": "Mor Marzan",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1705356175/7B12EEEE-8B9C-489B-882B-D5B8E47D9874_pjpibk.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "mdXG82",
+            "title": "Bugs"
+        },
+        "task": {
+            "id": "zqgnpK",
+            "title": "Inconsistent Styling Across Browsers"
+        },
+        "from": "-",
+        "to": "Done"
+    },
+    {
+        "_id": {
+            "$oid": "65a70fe1f20a7f9a567afce5"
+        },
+        "type": "priority",
+        "entity": "task",
+        "txt": null,
+        "createdAt": {
+            "$numberLong": "1705447393177"
+        },
+        "byMember": {
+            "_id": "659fd52d810c3f98c2054719",
+            "fullname": "Eden Rize",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360556/catt_dytsgq.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "mdXG82",
+            "title": "Bugs"
+        },
+        "task": {
+            "id": "zqgnpK",
+            "title": "Inconsistent Styling Across Browsers"
+        },
+        "from": "-",
+        "to": "High"
+    },
+    {
+        "_id": {
+            "$oid": "65a70fe3f20a7f9a567afce6"
+        },
+        "type": "date",
+        "entity": "task",
+        "txt": null,
+        "createdAt": {
+            "$numberLong": "1705447395729"
+        },
+        "byMember": {
+            "_id": "659fd60b810c3f98c205471b",
+            "fullname": "Mor Marzan",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1705356175/7B12EEEE-8B9C-489B-882B-D5B8E47D9874_pjpibk.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "mdXG82",
+            "title": "Bugs"
+        },
+        "task": {
+            "id": "zqgnpK",
+            "title": "Inconsistent Styling Across Browsers"
+        },
+        "to": {
+            "$numberLong": "1705528800000"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "65a70feaf20a7f9a567afce7"
+        },
+        "type": "status",
+        "entity": "task",
+        "txt": null,
+        "createdAt": {
+            "$numberLong": "1705447402187"
+        },
+        "byMember": {
+            "_id": "659fd5db810c3f98c205471a",
+            "fullname": "Noam Saar",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360614/noam_tdr2rp.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "mdXG82",
+            "title": "Bugs"
+        },
+        "task": {
+            "id": "zqgnpK",
+            "title": "Inconsistent Styling Across Browsers"
+        },
+        "from": "Done",
+        "to": "Done"
+    },
+    {
+        "_id": {
+            "$oid": "65a70ff4f20a7f9a567afce8"
+        },
+        "type": "create",
+        "entity": "task",
+        "txt": "task created",
+        "createdAt": {
+            "$numberLong": "1705447412502"
+        },
+        "byMember": {
+            "_id": "659fd5db810c3f98c205471a",
+            "fullname": "Noam Saar",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360614/noam_tdr2rp.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "mdXG82",
+            "title": "Bugs"
+        },
+        "task": {
+            "id": "2PaOZF",
+            "title": "Slow Page Load Times"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "65a70ff7f20a7f9a567afce9"
+        },
+        "type": "person",
+        "entity": "task",
+        "txt": "Person",
+        "createdAt": {
+            "$numberLong": "1705447415841"
+        },
+        "byMember": {
+            "_id": "659fd52d810c3f98c2054719",
+            "fullname": "Eden Rize",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360556/catt_dytsgq.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "mdXG82",
+            "title": "Bugs"
+        },
+        "task": {
+            "id": "2PaOZF",
+            "title": "Slow Page Load Times"
+        },
+        "from": "Added",
+        "to": "659fd52d810c3f98c2054719"
+    },
+    {
+        "_id": {
+            "$oid": "65a70ffaf20a7f9a567afcea"
+        },
+        "type": "status",
+        "entity": "task",
+        "txt": null,
+        "createdAt": {
+            "$numberLong": "1705447418592"
+        },
+        "byMember": {
+            "_id": "659fd5db810c3f98c205471a",
+            "fullname": "Noam Saar",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360614/noam_tdr2rp.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "mdXG82",
+            "title": "Bugs"
+        },
+        "task": {
+            "id": "2PaOZF",
+            "title": "Slow Page Load Times"
+        },
+        "from": "-",
+        "to": "Needs QA"
+    },
+    {
+        "_id": {
+            "$oid": "65a70ffdf20a7f9a567afceb"
+        },
+        "type": "priority",
+        "entity": "task",
+        "txt": null,
+        "createdAt": {
+            "$numberLong": "1705447421123"
+        },
+        "byMember": {
+            "_id": "659fd52d810c3f98c2054719",
+            "fullname": "Eden Rize",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1704360556/catt_dytsgq.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "mdXG82",
+            "title": "Bugs"
+        },
+        "task": {
+            "id": "2PaOZF",
+            "title": "Slow Page Load Times"
+        },
+        "from": "-",
+        "to": "Critical ⚠"
+    },
+    {
+        "_id": {
+            "$oid": "65a795bff20a7f9a567afcec"
+        },
+        "type": "status",
+        "entity": "task",
+        "txt": null,
+        "createdAt": {
+            "$numberLong": "1705481663729"
+        },
+        "byMember": {
+            "_id": "659fd60b810c3f98c205471b",
+            "fullname": "Mor Marzan",
+            "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1705356175/7B12EEEE-8B9C-489B-882B-D5B8E47D9874_pjpibk.jpg"
+        },
+        "board": {
+            "_id": "659fb84f43565a19c57dd627"
+        },
+        "group": {
+            "id": "g102",
+            "title": "Refactor"
+        },
+        "task": {
+            "id": "c205",
+            "title": "Refactor service to use http"
+        },
+        "from": "-",
+        "to": "Done"
     }
 ]
