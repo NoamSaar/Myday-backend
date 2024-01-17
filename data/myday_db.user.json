@@ -69,5 +69,94 @@
     "fullname": "Mister Bit",
     "username": "MisterBit",
     "password": "$2b$10$JVgMLchFqxlzzIlcC/zkhujEdEIw6ICnVyS4XRrfThlxKlUWhZryG"
+  },
+  {
+    "_id": {
+      "$oid": "712fd60b810c3f98c2012367"
+    },
+    "fullname": "David Tal",
+    "username": "David",
+    "password": "$2b$10$JVgMLchFqxlzzIlcC/zkhujEdEIw6ICnVyS4XRrfThlxKlUWhZryG",
+    "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1705525456/Screenshot_2024-01-17_230403_ze8zfg.png"
+  },
+  {
+    "_id": {
+      "$oid": "099fd60b810c3f98c2012990"
+    },
+    "fullname": "Amir Greenberg",
+    "username": "Amir",
+    "password": "$2b$10$JVgMLchFqxlzzIlcC/zkhujEdEIw6ICnVyS4XRrfThlxKlUWhZryG",
+    "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1705525529/Screenshot_2024-01-17_230514_ugaimg.png"
+  },
+  {
+    "_id": {
+      "$oid": "678fd60b810c3f98c2012111"
+    },
+    "fullname": "Dima",
+    "username": "Dima",
+    "password": "$2b$10$JVgMLchFqxlzzIlcC/zkhujEdEIw6ICnVyS4XRrfThlxKlUWhZryG",
+    "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1705525709/Screenshot_2024-01-17_230817_v0zo41.png"
+  },
+  {
+    "_id": {
+      "$oid": "1234d60b810c3f98c2014321"
+    },
+    "fullname": "Eden Spivak",
+    "username": "Eden Spivak",
+    "password": "$2b$10$JVgMLchFqxlzzIlcC/zkhujEdEIw6ICnVyS4XRrfThlxKlUWhZryG",
+    "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1705525780/Screenshot_2024-01-17_230929_acgjgq.png"
+  },
+  {
+    "_id": {
+      "$oid": "7789d60b810c3f98c2015543"
+    },
+    "fullname": "Guy Kadosh",
+    "username": "Guy",
+    "password": "$2b$10$JVgMLchFqxlzzIlcC/zkhujEdEIw6ICnVyS4XRrfThlxKlUWhZryG",
+    "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1705525864/Screenshot_2024-01-17_231051_choe5r.png"
+  },
+  {
+    "_id": {
+      "$oid": "3317d60b810c3f98c2016608"
+    },
+    "fullname": "Hadar Gruper",
+    "username": "Hadar",
+    "password": "$2b$10$JVgMLchFqxlzzIlcC/zkhujEdEIw6ICnVyS4XRrfThlxKlUWhZryG",
+    "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1705525950/Screenshot_2024-01-17_231218_ekyjyp.png"
+  },
+  {
+    "_id": {
+      "$oid": "7700d60b810c3f98c2010055"
+    },
+    "fullname": "Lihi Sered",
+    "username": "Lihi",
+    "password": "$2b$10$JVgMLchFqxlzzIlcC/zkhujEdEIw6ICnVyS4XRrfThlxKlUWhZryG",
+    "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1705526039/Screenshot_2024-01-17_231349_mve0ix.png"
+  },
+  {
+    "_id": {
+      "$oid": "4438d60b810c3f98c2014438"
+    },
+    "fullname": "Ori Teicher",
+    "username": "Ori",
+    "password": "$2b$10$JVgMLchFqxlzzIlcC/zkhujEdEIw6ICnVyS4XRrfThlxKlUWhZryG",
+    "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1705526039/Screenshot_2024-01-17_231349_mve0ix.png"
+  },
+  {
+    "_id": {
+      "$oid": "0439d60b810c3f98c2010439"
+    },
+    "fullname": "Nadav Guzzis Vazana",
+    "username": "Nadav",
+    "password": "$2b$10$JVgMLchFqxlzzIlcC/zkhujEdEIw6ICnVyS4XRrfThlxKlUWhZryG",
+    "imgUrl": "https://res.cloudinary.com/dkvliixzt/image/upload/v1705526628/Screenshot_2024-01-17_232337_f8mipg.png"
+  },
+  {
+    "_id": {
+      "$oid": "2388d60b810c3f98c2019088"
+    },
+    "fullname": "Sharon Frenkel",
+    "username": "Sharon",
+    "password": "$2b$10$JVgMLchFqxlzzIlcC/zkhujEdEIw6ICnVyS4XRrfThlxKlUWhZryG"
   }
 ]
