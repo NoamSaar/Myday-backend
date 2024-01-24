@@ -81,7 +81,6 @@ async function add(board) {
 async function update(board) {
     try {
         const boardToSave = {
-            // _id: new ObjectId(board._id),
             title: board.title,
             isStarred: board.isStarred,
             archivedAt: board.archivedAt,
@@ -92,6 +91,7 @@ async function update(board) {
             groups: board.groups,
             activities: board.activities,
             titlesOrder: board.titlesOrder,
+            description: board.description,
             order: board.order
         }
 
