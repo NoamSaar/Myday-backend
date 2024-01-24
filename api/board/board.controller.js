@@ -1,5 +1,6 @@
 import { boardService } from './board.service.js'
 import { logger } from '../../services/logger.service.js'
+import { asyncLocalStorage } from '../../services/als.service.js'
 
 export async function getBoards(req, res) {
   try {
@@ -24,7 +25,7 @@ export async function getBoardById(req, res) {
 }
 
 export async function addBoard(req, res) {
-  const { loggedinUser } = req
+  const { loggedinUser } = asyncLocalStorage.getStore()
 
   try {
     const board = req.body
