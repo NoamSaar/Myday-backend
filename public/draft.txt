@@ -1,0 +1,12 @@
+cancel button of search typy input
+
+// input[type="search"]::-webkit-search-cancel-button {
+//     -webkit-appearance: none;
+//     height: 0px;
+//     // height: 16px;
+//     width: 0px;
+//     // width: 16px;
+//     // background: url('path_to_custom_clear_button_image') no-repeat center center;
+//     background-size: contain;
+//     cursor: pointer;
+// }
