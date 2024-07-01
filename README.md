@@ -23,7 +23,7 @@ Thus is my final sprint in Coding Academy, developed with React, Redux, Sass & N
 
 ## <a id="start" /> Getting Started
 
-Myday is Available for all right <a href="https://myday-p034.onrender.com" target="_blank">here</a>.
+Myday is Available for all right <a href="https://myday-lv3w.onrender.com/" target="_blank">here</a>.
 
 ## <a id="features" /> Features
 
